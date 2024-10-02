@@ -1,0 +1,21 @@
+[
+	{
+		"title": "¿Qué es una red de datos?",
+		"options": {
+			"a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+			"b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+			"c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+			"d": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué es una red de datos?",
+		"options": {
+			"a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+			"b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+			"c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+		},
+		"correctAnswer": "a"
+	}
+]

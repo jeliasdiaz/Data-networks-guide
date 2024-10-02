@@ -1,0 +1,59 @@
+[
+    {
+        "title": "¿Qué es una red de datos?",
+        "img": "/img/modeloOSI.jpg",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. \n hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum.",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Subtitulo 1",
+                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. \n hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis volum cum.",
+                "imgContent": "/img/modeloOSI.jpg",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 1",
+                        "imgContent": "/img/modeloOSI.jpg",
+                        "content": "Contenido del sub-subtitulo 1."
+                    },
+                    {
+                        "title": "Sub-subtitulo 2",
+                        "imgContent": "/img/modeloOSI.jpg",
+                        "content": "Contenido del sub-subtitulo 2."
+                    }
+                ]
+            },
+            {
+                "title": "Subtitulo 2",
+                "content": "lorem 20",
+                "imgContent": "/img/modeloOSI.jpg",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 3",
+                        "content": "Contenido del sub-subtitulo 3."
+                    }
+                ]
+            }
+        ],
+        "questions": [
+            {
+                "title": "¿Qué es una red de datos?",
+                "options": {
+                    "a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+                    "b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+                    "c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+                    "d": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+                },
+                "correctAnswer": "a"
+            },
+            {
+                "title": "¿Qué es una red de datos?",
+                "options": {
+                    "a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+                    "b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
+                    "c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+                },
+                "correctAnswer": "a"
+            }
+        ]
+    }
+]
