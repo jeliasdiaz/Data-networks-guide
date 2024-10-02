@@ -1,41 +1,40 @@
-
 [
 	{
 		"title": "Introducción",
-		"img": "/img/modeloOSI.jpg",
-		"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis ali   Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi! \n   Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!  deserunt saepe impedit distinctio excepturi!",
+		"img": "/Desktop/ImagenIntroducción.jpg",
+		"content": "Para comprender el qué y para qué de una red de datos, resulta fundamental tener claro los siguientes conceptos: ",
 		"imgContent": "",
 		"subContent": [
 			{
 				"title": "¿Qué son los datos?",
-				"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!",
+				"content": "Los datos son la manera en la que se presenta la información, de tal forma que esta pueda ser almacenada, procesada y transmitida en un sistema comunicativo.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es la informática?",
-				"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!",
+				"content": "Es la ciencia que se encarga del desarrollo de sistemas capaces de almacenar, procesar y transmitir la información de manera automática. Y para ello, emplea dispositivos de cómputo y software.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es telecomunicación",
-				"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!",
+				"content": "Es la transmisión remota de información en forma de voz, texto, imágenes o video, mediante señales electromagnéticas.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es telemática?",
-				"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!",
+				"content": "Es la integración de la informática con las telecomunicaciones para el envío, recepción y procesamiento de datos a distancia en tiempo real. Es decir, hay una comunicación con un valor agregado que posibilita la gestión de la información.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "Comandos importantes",
-				"content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!",
+				"content": "A lo largo del curso, se emplearán los siguientes comandos fundamentales:",
 				"imgContent": "",
 				"subContent": [
-                    {
+					{
 						"title": "ipconfig/ifconfig",
 						"imgContent": "/img/ipconfig.png",
 						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
@@ -65,7 +64,7 @@
 						"imgContent": "/img/ipconfig.png",
 						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
 					}
-                ]
+				]
 			}
 		]
 	}
