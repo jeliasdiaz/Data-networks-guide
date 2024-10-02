@@ -35,7 +35,7 @@ const ContentRenderer = ({ data, level = 1 }) => {
 					{item.content.split('\n').map((line, lineIndex) => (
 						<>
 							<p key={lineIndex}>{line}</p>
-              <br />
+							<br />
 						</>
 					))}
 					{item.imgContent && (
