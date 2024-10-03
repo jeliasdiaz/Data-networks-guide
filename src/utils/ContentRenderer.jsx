@@ -17,17 +17,17 @@ const ContentRenderer = ({ data, level = 1 }) => {
 	return (
 		<div>
 			{data?.map((item, index) => (
-				<div key={index} className='mb-4'>
-					<div className='flex justify-between items-center'>
+				<div key={index} className='mb-2'>
+					<div className='flex justify-between items-center my-4'>
 						{item.img ? (
 							<>
 								<h1 className={`${getTitleClass(level)} font-bold`}>
 									{item.title}
 								</h1>
-								<img src={item.img} alt='' className='w-3/5' />
+								<img src={item.img} alt='' className='w-3/5 rounded-lg' />
 							</>
 						) : (
-							<h1 className={`${getTitleClass(level)} mt-10 font-bold`}>
+							<h1 className={`${getTitleClass(level)} mt-4 font-bold`}>
 								{item.title}
 							</h1>
 						)}
@@ -39,7 +39,7 @@ const ContentRenderer = ({ data, level = 1 }) => {
 						</>
 					))}
 					{item.imgContent && (
-						<div className='flex justify-center'>
+						<div className='flex justify-center mt-2'>
 							<img src={item.imgContent} alt='' className='w-3/5' />
 						</div>
 					)}

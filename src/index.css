@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	::-webkit-scrollbar-thumb {
+		@apply bg-transparent shadow-sm;
+	}
+	::-webkit-scrollbar {
+		@apply w-3 bg-transparent bg-blue-100;
+	}
+	::-webkit-scrollbar-thumb {
+		@apply rounded-lg bg-blue-200 /*color trackbar*/;
+	}
+}
