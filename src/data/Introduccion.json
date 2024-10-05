@@ -46,23 +46,23 @@
 					},
 					{
 						"title": "nslookup",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"imgContent": "/img/nslookup.png",
+						"content": "Cuando se requiere conocer la dirección IP asociada a cierto nombre de dominio, o viceversa, se usa este comando. En la imagen consultamos las direcciones IP vinculadas al dominio www.youtube.com."
 					},
 					{
 						"title": "telnet",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"imgContent": "/img/telnet.png",
+						"content": "A través del protocolo Telnet, este comando nos permite establecer un canal de comunicación remoto con otro dispositivo, por el cual podemos ejecutar varios comandos y procesos. En la imagen, primero usamos el comando nslookup para consultar la dirección IP asociada al dominio www.upb.edu.co, con ello ejecutamos el comando telnet, véase que se debe especificar el puerto por el cual se establece el canal (en este caso el 443 = HTTPS), luego nuestro dispositivo solicita la conexión."
 					},
 					{
 						"title": "netstat -an",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"imgContent": "/img/netstat.png",
+						"content": "Muestra las conexiones activas (TCP o UDP), así como sus estados y los puertos que se estan usando. "
 					},
 					{
-						"title": "tracert ",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"title": "tracert/traceroute ",
+						"imgContent": "/img/tracert.png",
+						"content": "Rastrea el camino que siguen los paquetes desde el host local hasta un destino que es el que le especificamos, ya sea por dirección IP o por nombre de dominio. En la imagen ejemplo, cada linea es el salto que realizan los paquetes de nodo a nodo hasta llegar al servidor que aloja el nombre de dominio www.upb.edu.co."
 					}
 				]
 			}
