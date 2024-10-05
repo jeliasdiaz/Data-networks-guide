@@ -4,7 +4,7 @@ import IsOnPage from '../utils/isOnPage';
 
 export const SideBar = () => {
 	return (
-		<section className='flex flex-col w-64 h-screen bg-gray-100 p-3 overflow-y-auto'>
+		<section className='flex flex-col w-64 h-full bg-gray-100 p-3 overflow-y-auto fixed top-0 left-0'>
 			<h1 className='text-2xl font-bold'>Guia para redes</h1>
 			<hr className='h-2 text-black' />
 			<ul className='flex flex-col'>
