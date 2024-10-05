@@ -36,13 +36,13 @@
 				"subContent": [
 					{
 						"title": "ipconfig/ifconfig",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"imgContent": "/img/ipconfigD.png",
+						"content": "Se ejecuta para obtener información sobre las configuraciones de red del dispositivo, tales como: dirección IP, máscara de subred, puerta de enlace predeterminada, interfaces activas, entre otras. Puede usar la extensión /all para mostrar la información más detallada."
 					},
 					{
 						"title": "ping",
-						"imgContent": "/img/ipconfig.png",
-						"content": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi at optio officia, veritatis alias deserunt saepe impedit distinctio excepturi!"
+						"imgContent": "/img/Ping.png",
+						"content": "Se usa para probar la conectividad entre dos dispositivos, ya sea  otro host o un servidor. Para ello envía un echo request (señal) y espera un echo reply (respuesta) por medio de paquetes ICMP. En la siguiente imagen, se hace ping a www.youtube.com para verificar conectividad con alguno de los servidores que contenga esa dirección asociada a www.youtube.com. "
 					},
 					{
 						"title": "nslookup",
