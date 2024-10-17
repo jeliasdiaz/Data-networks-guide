@@ -1,6 +1,6 @@
 import data from '../data/sideBarData.json';
 import { Link } from 'react-router-dom'
-import IsOnPage from '../utils/isOnPage';
+import IsOnPage from '../utils/IsOnPage'
 
 export const SideBar = () => {
 	return (
