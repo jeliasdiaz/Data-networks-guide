@@ -4,16 +4,16 @@ import { SideBar } from './components/SideBar'
 import { BottomNavigation } from './components/'
 import { QueEsRedesDatos } from './pages/Conceptos-basicos/QueEsRedesDatos'
 import ScrollToTop from './ScrollToTop'
-
+import "boxicons"
 function App() {
 	return (
 		<BrowserRouter>
 			<ScrollToTop>
 				<div className='flex h-screen' style={{ display: 'flex' }}>
-					<div className='w-1/4'>
+					<div className="md:w-1/4">
 						<SideBar />
 					</div>
-					<div className='w-3/4 px-14'>
+					<div className="w-full px-5 md:px-14 md:w-3/4">
 						<Routes location={location}>
 							<Route path='/' element={<Welcome />} />
 							<Route path='/introduccion' element={<Introduccion />} />
