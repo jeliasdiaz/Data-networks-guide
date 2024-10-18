@@ -10,9 +10,10 @@ export const SideBar = () => {
 		<>
 			<button onClick={toggleSidebar}>
 				{!isSidebarOpen && (
-					<div className='md:hidden rounded-md p-1 backdrop-filter backdrop-blur-md text-white fixed top-2 left-2 z-50'>
+					<div className='md:hidden rounded-md p-1 pb-0 backdrop-filter backdrop-blur-md text-white fixed top-2 left-2'>
 						<box-icon
 							name='menu-alt-left'
+							size="30px"
 							className=''
 							onClick={toggleSidebar}
 						></box-icon>
@@ -20,7 +21,7 @@ export const SideBar = () => {
 				)}
 			</button>
 			<section
-				className={`flex flex-col w-64 h-full bg-gray-100 p-3 overflow-y-auto fixed top-0 left-0 transform ${
+				className={`flex flex-col w-64 h-full bg-gray-100 p-3 overflow-y-auto fixed top-0 left-0 z-50 transform ${
 					isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
 				} md:translate-x-0 transition-transform duration-300 ease-in-out`}
 			>
