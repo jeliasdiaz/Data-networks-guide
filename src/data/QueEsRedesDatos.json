@@ -1,59 +1,179 @@
 [
-    {
-        "title": "¿Qué es una red de datos?",
-        "img": "/img/modeloOSI.jpg",
-        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. \n hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum.",
-        "imgContent": "",
-        "subContent": [
-            {
-                "title": "Subtitulo 1",
-                "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis voluptates tenetur dolores, eos dolorum! Tempore, aliquam tenetur, aut molestiae maxime unde quod, nemo odio a ducimus perspiciatis rem? Sunt, quam cum. \n hola Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor deserunt cupiditate consequuntur ipsam sed repellat repudiandae eaque reiciendis volum cum.",
-                "imgContent": "/img/modeloOSI.jpg",
-                "subContent": [
-                    {
-                        "title": "Sub-subtitulo 1",
-                        "imgContent": "/img/modeloOSI.jpg",
-                        "content": "Contenido del sub-subtitulo 1."
-                    },
-                    {
-                        "title": "Sub-subtitulo 2",
-                        "imgContent": "/img/modeloOSI.jpg",
-                        "content": "Contenido del sub-subtitulo 2."
-                    }
-                ]
-            },
-            {
-                "title": "Subtitulo 2",
-                "content": "lorem 20",
-                "imgContent": "/img/modeloOSI.jpg",
-                "subContent": [
-                    {
-                        "title": "Sub-subtitulo 3",
-                        "content": "Contenido del sub-subtitulo 3."
-                    }
-                ]
-            }
-        ],
-        "questions": [
-            {
-                "title": "¿Qué es una red de datos?",
-                "options": {
-                    "a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-                    "b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-                    "c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-                    "d": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
-                },
-                "correctAnswer": "a"
-            },
-            {
-                "title": "¿Qué es una red de datos?",
-                "options": {
-                    "a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-                    "b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-                    "c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
-                },
-                "correctAnswer": "a"
-            }
-        ]
-    }
+	{
+		"title": "¿Qué es una red de datos?",
+		"img": "",
+		"content": "Una red de datos es un conjunto de dispositivos conectados entre sí para compartir información y recursos. Su propósito principal es permitir la comunicación entre diferentes equipos, facilitando el intercambio de datos de manera rápida y eficiente. Estos dispositivos pueden incluir computadoras, servidores, impresoras, teléfonos y más. En una red de datos, los servidores almacenan y gestionan los recursos que los clientes (como computadoras o dispositivos móviles) pueden solicitar. Para permitir que estos dispositivos se comuniquen entre sí, se utilizan equipos como routers, que dirigen los datos entre redes diferentes, y switches, que conectan múltiples dispositivos dentro de la misma red, asegurando que los datos lleguen a su destino de manera eficiente.",
+		"imgContent": "/img/imagenQueEsUnaRed.png",
+		"subContent": [
+			{
+				"title": "Tipos de redes de datos por cobertura",
+				"content": "Para profundizar más leer de la página 16 a la 25 del texto guía.",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Red PAN",
+						"content": "Personal Area Network es una red de corto alcance, estamos hablando de 1 a 10 metros, se emplea para conectar dispositivos a tecnologías como Bluetooth.",
+						"imgContent": "/img/redPAN.jpg"
+					},
+					{
+						"title": "Red LAN",
+						"content": "Local Area Network es la más común a la hora de estudiar una red de datos, va de 10 metros a 10 kilometros. Son las que se observan en las oficinas y en los hogares.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red MAN",
+						"content": "Metropolitan Area Network cubre un área geográfica amplia, de 10 kilometros a 100 kilometros. Su función es conectar múltiples redes LAN en una ciudad, con el objetivo de ofrecer interconexión entre ellas.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red WAN",
+						"content": "Wide Area Network que abarca de 100 kilometros para adelante, es decir, un país o continente. Permite la comunicacion desde un punto geográfico a otro punto geográfico remoto, por ejemplo cuando juegas desde casa un videojuego online y para ello debes conectarte a un servidor que está en otro país. ",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Tipos de redes de datos por topología",
+				"content": "",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Red de bus",
+						"content": "En esta topología, todos los dispositivos están conectados a un único cable central (bus) que actúa como el medio de transmisión. Los datos viajan en ambas direcciones por el bus, y cada dispositivo monitorea si los datos son para él o no",
+						"imgContent": ""
+					},
+					{
+						"title": "Red en anillo",
+						"content": "Aquí cada dispositivo está conectado a otros dos dispositivos, formando un bucle cerrado (un anillo). Los datos viajan en una dirección a lo largo del anillo y pasan de un dispositivo a otro hasta llegar a su destino.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de estrella",
+						"content": "En esta configuración, todos los dispositivos están conectados a un dispositivo central (normalmente un switch o hub). Los datos pasan del dispositivo emisor al nodo central, que luego los retransmite al destinatario correcto.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de malla",
+						"content": "En una red en malla, cada dispositivo está conectado a todos los demás dispositivos. Esto permite múltiples rutas para que los datos viajen, lo que hace la red altamente redundante, pero también lenta.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de árbol",
+						"content": "Es una combinación de la topología en estrella con una estructura jerárquica, donde varios dispositivos en estrella están conectados a un nodo central que actúa como el tronco del árbol, y otros nodos se conectan a este.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red híbrida",
+						"content": "Combina dos o más tipos de topologías anteriores. Por ejemplo, una red puede tener secciones en estrella, conectadas a través de una topología en bus. La red es diseñada de manera que combine las ventajas de las distintas topologías.",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Tipos de transmisión de datos",
+				"content": "Se pueden dividir en tres:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Unicast",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Multicast",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Broadcast",
+						"content": "",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Dispositivos fundamentales de las redes Ethernet",
+				"content": "La construcción de una red Ethernet se hace empleando los siguientes elementos:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Host",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Switch",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Router",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Medio de conexión",
+						"content": "",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Concepto de Alta Disponibilidad",
+				"content": "",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Red RAID",
+						"content": "",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Principales servicios en una red Ethernet",
+				"content": "Los dispositivos que conforman la red trabajan en armonía para ejecutar servicios entre ellos, como:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "DHCP",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "DNS",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Servicio Web",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "FTP",
+						"content": "",
+						"imgContent": ""
+					}
+				]
+			},
+			{
+				"title": "Otros conceptos importantes",
+				"content": "Tener en cuenta también los siguientes conceptos:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Proxy",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Firewall",
+						"content": "",
+						"imgContent": ""
+					}
+				]
+			}
+		]
+	}
 ]
