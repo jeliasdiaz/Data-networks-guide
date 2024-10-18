@@ -2,7 +2,7 @@
 	{
 		"title": "¿Qué es una red de datos?",
 		"img": "",
-		"content": "Una red de datos es un conjunto de dispositivos conectados entre sí para compartir información y recursos. Su propósito principal es permitir la comunicación entre diferentes equipos, facilitando el intercambio de datos de manera rápida y eficiente. Estos dispositivos pueden incluir computadoras, servidores, impresoras, teléfonos y más. En una red de datos, los servidores almacenan y gestionan los recursos que los clientes (como computadoras o dispositivos móviles) pueden solicitar. Para permitir que estos dispositivos se comuniquen entre sí, se utilizan equipos como routers, que dirigen los datos entre redes diferentes, y switches, que conectan múltiples dispositivos dentro de la misma red, asegurando que los datos lleguen a su destino de manera eficiente.",
+		"content": "Una red de datos es un conjunto de dispositivos conectados entre sí para compartir información y recursos. Su propósito principal es permitir la comunicación entre diferentes equipos, facilitando el intercambio de datos de manera rápida y eficiente. Estos dispositivos pueden incluir computadoras, servidores, impresoras, teléfonos y más. En una red de datos, los servidores almacenan y gestionan los recursos que los clientes (*como* *computadoras* *o* *dispositivos* *móviles*) pueden solicitar. Para permitir que estos dispositivos se comuniquen entre sí, se utilizan equipos como routers, que dirigen los datos entre redes diferentes, y switches, que conectan múltiples dispositivos dentro de la misma red, asegurando que los datos lleguen a su destino de manera eficiente.",
 		"imgContent": "/img/imagenQueEsUnaRed.png",
 		"subContent": [
 			{
