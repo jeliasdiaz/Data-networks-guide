@@ -1,41 +1,71 @@
 [
 	{
-		"title": "Titulo",
+		"title": "Tipos de redes de datos",
 		"img": "",
-		"content": "",
+		"content": "Las redes de datos se pueden clasificar por **cobertura**, es decir, su *alcance*, y por **topología**, que se refiere a la *estructura* en la cual se conectan los dispositivos.",
 		"imgContent": "",
 		"subContent": [
 			{
-				"title": "Subtitulo 1",
-				"content": "",
+				"title": "Tipos de redes de datos por cobertura",
+				"content": "_Para profundizar más leer de la página 16 a la 25 del texto guía_.",
 				"imgContent": "",
 				"subContent": [
 					{
-						"title": "Sub-subtitulo 1",
-						"imgContent": "",
-						"content": ""
+						"title": "Red PAN",
+						"content": "Personal Area Network es una red de **corto alcance**, estamos hablando de 1 a 10 metros, se emplea para conectar dispositivos a tecnologías como Bluetooth.",
+						"imgContent": "/img/redPAN.jpg"
 					},
 					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
+						"title": "Red LAN",
+						"content": "Local Area Network es la más común a la hora de estudiar una red de datos, pues usan el protocolo **Ethernet**, va de 10 metros a 10 kilometros. Son las que se observan en las oficinas y en los hogares.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red MAN",
+						"content": "Metropolitan Area Network cubre un área geográfica amplia, de 10 kilometros a 100 kilometros. Su función es **conectar múltiples redes LAN** en una ciudad, con el objetivo de ofrecer interconexión entre ellas.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red WAN",
+						"content": "Wide Area Network que abarca de 100 kilometros para adelante, es decir, un país o continente. Permite la **comunicacion desde un punto geográfico a otro punto geográfico remoto**, por ejemplo cuando juegas desde casa un videojuego online y para ello debes conectarte a un servidor que está en otro país. ",
+						"imgContent": ""
 					}
 				]
 			},
 			{
-				"title": "Subtitulo 2",
-				"content": "",
+				"title": "Tipos de redes de datos por topología",
+				"content": "*Las redes se pueden organizar de las siguientes formas:*",
 				"imgContent": "",
 				"subContent": [
 					{
-						"title": "Sub-subtitulo 2",
-						"imgContent": "",
-						"content": ""
+						"title": "Red de bus",
+						"content": "En esta topología, todos los dispositivos están conectados a un **único cable central** (*bus*) que actúa como el medio de transmisión. Los datos viajan en ambas direcciones por el bus, y cada dispositivo monitorea si los datos son para él o no",
+						"imgContent": ""
 					},
 					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
+						"title": "Red en anillo",
+						"content": "Aquí cada dispositivo está conectado a otros dos dispositivos, formando un **bucle cerrado** (un anillo). Los datos viajan en una dirección a lo largo del anillo y pasan de un dispositivo a otro hasta llegar a su destino.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de estrella",
+						"content": "En esta configuración, todos los dispositivos están conectados a un **dispositivo central** (*normalmente un switch o hub*). Los datos pasan del dispositivo emisor al nodo central, que luego los retransmite al destinatario correcto.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de malla",
+						"content": "En una red en malla, cada dispositivo está conectado a todos los demás dispositivos. Esto permite **múltiples rutas** para que los datos viajen, lo que hace la red altamente redundante, pero también lenta.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red de árbol",
+						"content": "Es una combinación de la topología en estrella con una estructura jerárquica, donde varios dispositivos en estrella están conectados a un nodo central que actúa como el **tronco del árbol**, y otros nodos se conectan a este.",
+						"imgContent": ""
+					},
+					{
+						"title": "Red híbrida",
+						"content": "**Combina** dos o más tipos de topologías anteriores. Por ejemplo, una red puede tener *secciones en estrella, conectadas a través de una topología en bus*. La red es diseñada de manera que combine las ventajas de las distintas topologías.",
+						"imgContent": ""
 					}
 				]
 			}
