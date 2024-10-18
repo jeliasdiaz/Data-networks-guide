@@ -1,41 +1,34 @@
 [
 	{
-		"title": "Titulo",
+		"title": "Componentes fundamentales de las redes Ethernet",
 		"img": "",
-		"content": "",
+		"content": "Una red Ethernet es un tipo de **red de área local** (*LAN*) que utiliza el protocolo Ethernet para interconectar dispositivos, como computadoras, impresoras, servidores y otros equipos.  Es uno de los **estándares más comunes** y ampliamente adoptados para redes cableadas debido a su escalabilidad, velocidad y facilidad de uso.",
 		"imgContent": "",
 		"subContent": [
 			{
-				"title": "Subtitulo 1",
-				"content": "",
+				"title": "Dispositivos fundamentales de las redes Ethernet",
+				"content": "_La construcción de una red Ethernet básica se hace empleando los siguientes elementos_:",
 				"imgContent": "",
 				"subContent": [
 					{
-						"title": "Sub-subtitulo 1",
-						"imgContent": "",
-						"content": ""
+						"title": "Host",
+						"content": "Son aquellos **dispositivos que envían y reciben los paquetes**, osea los emisores iniciales y receptores finales. Incluye una amplia variedad de máquinas, como computadoras, móviles, impresoras, servidores, cámaras IP, y cualquier equipo que cuente con una interfaz de red.",
+						"imgContent": ""
 					},
 					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
-					}
-				]
-			},
-			{
-				"title": "Subtitulo 2",
-				"content": "",
-				"imgContent": "",
-				"subContent": [
-					{
-						"title": "Sub-subtitulo 2",
-						"imgContent": "",
-						"content": ""
+						"title": "Switch",
+						"content": "Es un dispositivo de red que se utiliza para **conectar múltiples hosts dentro de una red local** (LAN) y *gestionar* el flujo de datos entre ellos de manera eficiente. Su principal función es recibir datos de un dispositivo de la red y enviarlos solo al dispositivo de destino, en lugar de transmitirlos a todos los dispositivos conectados.",
+						"imgContent": ""
 					},
 					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
+						"title": "Router",
+						"content": "",
+						"imgContent": ""
+					},
+					{
+						"title": "Medio de conexión",
+						"content": "",
+						"imgContent": ""
 					}
 				]
 			}
