@@ -5,6 +5,7 @@ import { BottomNavigation } from './components/'
 import { QueEsRedesDatos } from './pages/Conceptos-basicos/QueEsRedesDatos'
 import ScrollToTop from './ScrollToTop'
 import "boxicons"
+import { ComponentesFundamentalesEthernet } from './pages/Conceptos-basicos/ComponentesFundamentalesEthernet'
 function App() {
 	return (
 		<BrowserRouter>
@@ -20,6 +21,10 @@ function App() {
 							<Route
 								path='/conceptos-basicos/que-es-una-red-de-datos'
 								element={<QueEsRedesDatos />}
+							/>
+							<Route
+								path='/conceptos-basicos/componentes-fundamentales-ethernet'
+								element={<ComponentesFundamentalesEthernet />}
 							/>
 						</Routes>
 						<BottomNavigation />
