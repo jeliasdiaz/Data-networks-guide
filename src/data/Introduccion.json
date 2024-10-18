@@ -2,67 +2,67 @@
 	{
 		"title": "Introducción",
 		"img": "/img/ImagenIntroducción4K.jpg",
-		"content": "Para comprender el qué y para qué **de**  *una* _red de datos_, resulta fundamental tener claro los siguientes conceptos:",
+		"content": "Para comprender el qué y para qué de una _red de datos_, resulta fundamental tener claro los siguientes conceptos:",
 		"imgContent": "",
 		"subContent": [
 			{
 				"title": "¿Qué son los datos?",
-				"content": "Los datos son la manera en la que se presenta la información, de tal forma que esta pueda ser almacenada, procesada y transmitida en un sistema comunicativo.",
+				"content": "Los datos son la **manera en la que se presenta la información**, de tal forma que esta pueda ser almacenada, procesada y transmitida en un sistema comunicativo.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es la informática?",
-				"content": "Es la ciencia que se encarga del desarrollo de sistemas capaces de almacenar, procesar y transmitir la información de manera automática. Y para ello, emplea dispositivos de cómputo y software.",
+				"content": "Es la ciencia que se encarga del desarrollo de **sistemas capaces de almacenar, procesar y transmitir la información de manera automática**. Y para ello, emplea dispositivos de cómputo y software.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es telecomunicación",
-				"content": "Es la transmisión remota de información en forma de voz, texto, imágenes o video, mediante señales electromagnéticas.",
+				"content": "Es la **transmisión remota de información** en forma de voz, texto, imágenes o video, mediante señales electromagnéticas.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "¿Qué es telemática?",
-				"content": "Es la integración de la informática con las telecomunicaciones para el envío, recepción y procesamiento de datos a distancia en tiempo real. Es decir, hay una comunicación con un valor agregado que posibilita la gestión de la información.",
+				"content": "Es la **integración de la informática con las telecomunicaciones** para el envío, recepción y procesamiento de datos a distancia en tiempo real. Es decir, hay una comunicación con un valor agregado que posibilita la gestión de la información.",
 				"imgContent": "",
 				"subContent": []
 			},
 			{
 				"title": "Comandos importantes",
-				"content": "A lo largo del curso, se emplearán los siguientes comandos fundamentales:",
+				"content": "*A lo largo del curso, se emplearán los siguientes comandos fundamentales:*",
 				"imgContent": "",
 				"subContent": [
 					{
 						"title": "ipconfig/ifconfig",
 						"imgContent": "/img/ipconfigD.png",
-						"content": "Se ejecuta para obtener información sobre las configuraciones de red del dispositivo, tales como: dirección IP, máscara de subred, puerta de enlace predeterminada, interfaces activas, entre otras. Puede usar la extensión /all para mostrar la información más detallada."
+						"content": "Se ejecuta para obtener **información sobre las configuraciones de red del dispositivo**, tales como: dirección IP, máscara de subred, puerta de enlace predeterminada, interfaces activas, entre otras. Puede usar la extensión /all para mostrar la información más detallada."
 					},
 					{
 						"title": "ping",
 						"imgContent": "/img/Ping.png",
-						"content": "Se usa para probar la conectividad entre dos dispositivos, ya sea  otro host o un servidor. Para ello envía un echo request (señal) y espera un echo reply (respuesta) por medio de paquetes ICMP. En la siguiente imagen, se hace ping a www.youtube.com para verificar conectividad con alguno de los servidores que contenga esa dirección asociada a www.youtube.com. "
+						"content": "Se usa para **probar la conectividad entre dos dispositivos**, ya sea  otro host o un servidor. Para ello envía un echo request (señal) y espera un echo reply (respuesta) por medio de paquetes ICMP. En la siguiente imagen, se hace ping a www.youtube.com para verificar conectividad con alguno de los servidores que contenga esa dirección asociada a www.youtube.com. "
 					},
 					{
 						"title": "nslookup",
 						"imgContent": "/img/nslookup.png",
-						"content": "Cuando se requiere conocer la dirección IP asociada a cierto nombre de dominio, o viceversa, se usa este comando. En la imagen consultamos las direcciones IP vinculadas al dominio www.youtube.com."
+						"content": "Cuando se requiere **conocer la dirección IP asociada a cierto nombre de dominio**, o viceversa, se usa este comando. En la imagen consultamos las direcciones IP vinculadas al dominio www.youtube.com."
 					},
 					{
 						"title": "telnet",
 						"imgContent": "/img/telnet.png",
-						"content": "A través del protocolo Telnet, este comando nos permite establecer un canal de comunicación remoto con otro dispositivo, por el cual podemos ejecutar varios comandos y procesos. En la imagen, primero usamos el comando nslookup para consultar la dirección IP asociada al dominio www.upb.edu.co, con ello ejecutamos el comando telnet, véase que se debe especificar el puerto por el cual se establece el canal (en este caso el 443 = HTTPS), luego nuestro dispositivo solicita la conexión."
+						"content": "A través del protocolo Telnet, este comando nos permite **establecer un canal de comunicación remoto con otro dispositivo**, por el cual podemos ejecutar varios comandos y procesos. En la imagen, primero usamos el comando nslookup para consultar la dirección IP asociada al dominio www.upb.edu.co, con ello ejecutamos el comando telnet, véase que se debe especificar el puerto por el cual se establece el canal (en este caso el 443 = HTTPS), luego nuestro dispositivo solicita la conexión."
 					},
 					{
 						"title": "netstat -an",
 						"imgContent": "/img/netstat.png",
-						"content": "Muestra las conexiones activas (TCP o UDP), así como sus estados y los puertos que se estan usando. "
+						"content": "**Muestra las conexiones activas** (*TCP o UDP*), así como sus estados y los puertos que se estan usando. "
 					},
 					{
 						"title": "tracert/traceroute ",
 						"imgContent": "/img/tracert.png",
-						"content": "Rastrea el camino que siguen los paquetes desde el host local hasta un destino que es el que le especificamos, ya sea por dirección IP o por nombre de dominio. En la imagen ejemplo, cada linea es el salto que realizan los paquetes de nodo a nodo hasta llegar al servidor que aloja el nombre de dominio www.upb.edu.co."
+						"content": "**Rastrea el camino que siguen los paquetes** desde el host local hasta un destino que es el que le especificamos, ya sea por dirección IP o por nombre de dominio. En la imagen ejemplo, cada linea es el salto que realizan los paquetes de nodo a nodo hasta llegar al servidor que aloja el nombre de dominio www.upb.edu.co."
 					}
 				]
 			}
