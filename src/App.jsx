@@ -4,7 +4,7 @@ import { SideBar } from './components/SideBar'
 import { BottomNavigation } from './components/'
 import ScrollToTop from './ScrollToTop'
 import "boxicons"
-import { ComponentesFundamentalesEthernet, QueEsRedesDatos, TiposRedes } from './pages/Conceptos-basicos'
+import { ComponentesFundamentalesEthernet, QueEsRedesDatos, TiposRedes, TiposTransmisionDatos } from './pages/Conceptos-basicos'
 function App() {
 	return (
 		<BrowserRouter>
