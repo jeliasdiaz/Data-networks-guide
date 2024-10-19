@@ -2,11 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Introduccion, Welcome } from './pages'
 import { SideBar } from './components/SideBar'
 import { BottomNavigation } from './components/'
-import { QueEsRedesDatos } from './pages/Conceptos-basicos/QueEsRedesDatos'
 import ScrollToTop from './ScrollToTop'
 import "boxicons"
-import { ComponentesFundamentalesEthernet } from './pages/Conceptos-basicos/ComponentesFundamentalesEthernet'
-import { TiposRedes } from './pages/Conceptos-basicos/TiposRedes'
+import { ComponentesFundamentalesEthernet, QueEsRedesDatos, TiposRedes } from './pages/Conceptos-basicos'
 function App() {
 	return (
 		<BrowserRouter>
