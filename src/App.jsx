@@ -41,6 +41,10 @@ function App() {
 								element={<ComponentesFundamentalesEthernet />}
 							/>
 							<Route
+								path='/conceptos-basicos/alta-disponibilidad'
+								element={<ComponentesFundamentalesEthernet />}
+							/>
+							<Route
 								path='/conceptos-basicos-quiz'
 								element={<QuizConceptosBasicos />}
 							/>

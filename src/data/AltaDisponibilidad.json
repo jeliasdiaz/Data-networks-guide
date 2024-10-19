@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Concepto de Alta Disponibilidad",
+        "content": "La alta disponibilidad (HA) se refiere a la **capacidad de la red para mantenerse operativa durante la mayor parte del tiempo**, buscando minimizar las interrupciones. El objetivo principal es evitar el tiempo de inactividad, que puede ser costoso tanto en términos económicos como de servicio para las organizaciones. Para ello, se siguen unas medidas como la **redundancia**, que es *duplicar componentes críticos de la red, como servidores, enrutadores, conmutadores y los medios de comunicación, para que si uno falla, otro asuma su función sin interrumpir el servicio*. ",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "RAID",
+                "content": "Es una metodología para la alta disponibilidad, que **combina múltiples discos duros físicos en una única unidad lógica para cumplir con la redundancia**. Los diferentes niveles de RAID permiten distribuir y duplicar datos de manera que, si un disco falla, los datos no se pierdan y el sistema continúe funcionando. *En la siguiente imagen puedes observar un RAID tipo 1, que consiste en hacer mirroning, osea duplicar tal cual las unidades lógicas*. ",
+                "imgContent": "/img/RAID1.png"
+            }
+        ]
+    }
+]

@@ -6,18 +6,7 @@
 		"imgContent": "/img/imagenQueEsUnaRed.png",
 		"subContent": [
 		
-			{
-				"title": "Concepto de Alta Disponibilidad",
-				"content": "",
-				"imgContent": "",
-				"subContent": [
-					{
-						"title": "Red RAID",
-						"content": "",
-						"imgContent": ""
-					}
-				]
-			},
+			
 			{
 				"title": "Principales servicios en una red Ethernet",
 				"content": "Los dispositivos que conforman la red trabajan en armonía para ejecutar servicios entre ellos, como:",

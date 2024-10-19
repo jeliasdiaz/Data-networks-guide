@@ -39,7 +39,7 @@
 				"subContent": [
 					{
 						"title": "Red de bus",
-						"content": "En esta topología, todos los dispositivos están conectados a un **único cable central** (*bus*) que actúa como el medio de transmisión. Los datos viajan en ambas direcciones por el bus, y cada dispositivo monitorea si los datos son para él o no",
+						"content": "En esta topología, todos los dispositivos están conectados a un **único cable central** (*bus*) que actúa como el medio de transmisión. Los datos viajan en ambas direcciones por el bus, y cada dispositivo monitorea si los datos son para él o no.",
 						"imgContent": ""
 					},
 					{
