@@ -1,10 +1,14 @@
 import data from '../data/sideBarData.json'
 import { Link } from 'react-router-dom'
 import IsOnPage from '../utils/IsOnPage'
-import { useContext } from 'react'
-import { SidebarContext } from '../context/SidebarContext'
+import { useState } from 'react';
 export const SideBar = () => {
-	const { isSidebarOpen, toggleSidebar } = useContext(SidebarContext)
+	const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+	const toggleSidebar = () => {
+		setIsSidebarOpen(!isSidebarOpen)
+	}
+	
 
 	return (
 		<>
