@@ -25,8 +25,8 @@
 Para agregar nuevos módulos o temáticas al proyecto, sigue los siguientes pasos:
 
 1. **Crear un nuevo archivo de módulo**:
-    - Navega a la carpeta donde deseas agregar el nuevo módulo.
-    - Crea un nuevo archivo con un nombre descriptivo para el módulo, con la primera letra en mayúscula.
+    - Navega a la carpeta *pages* donde agregarás el nuevo módulo.
+    - Crea un nuevo archivo con un nombre descriptivo para el módulo dentro de la carpeta nueva que creaste, con la primera letra en mayúscula.
 
 2. **Definir el contenido del módulo**:
     - Abre el archivo recién creado. Allí, colocarás esta plantilla reemplazando con el nombre de tu temática donde diga ```NombreDeTuTematica```:
@@ -79,6 +79,10 @@ Para agregar nuevos módulos o temáticas al proyecto, sigue los siguientes paso
     }
     ```
 
+    El nuevo módulo se ubicaría al final de los modulos previos o en el lugar que usted desee, dependiendo de su posició en el archivo json.
+
+    ![alt text](./public/img/image-sidebar.png)
+
 4. **Agregar la ruta**:
     - Abrimos el archivo ```App.jsx``` ubicado en la carpeta *src*, ahí, debajo de alguna ruta, por ejemplo:
     
@@ -107,3 +111,19 @@ Para agregar nuevos módulos o temáticas al proyecto, sigue los siguientes paso
     - Realiza un push de los cambios al repositorio remoto para que otros colaboradores puedan acceder al nuevo módulo.
 
 Siguiendo estos pasos, podrás agregar nuevos módulos o temáticas de manera organizada y eficiente.
+
+## Modificar y agregar
+1. Ubicamos el archivo de nuestra tematica en la carpeta *data*, allí modificamos las respuestas y preguntas.
+  - Nota: La estructura para los quizes se encuentra en el archivo json [EstructuraQuiz.json](./src/data/EstructuraQuiz.json), en caso se desee crear un nuevo quiz.
+
+2. Si desearamos crear otro archivo quiz, tendriamos que crear un archivo dentro de la carpeta de nuestro módulo y pegar la siguiente plantilla, modificando donde diga ```NombreDelArchivoJsonQuiz``` por el nombre de tu archivo y quiz:
+```jsx
+import QuizRenderer from '../../utils/QuizRenderer'
+import data from '../../data/NombreDelArchivoJsonQuiz.json'
+export const NombreDelArchivoJsonQuiz = () => {
+	return <QuizRenderer quizData={data} />
+}
+
+```
+
+3. Luego repetirías el proceso con las rutas como al agregar cualquier otra temática explicada anteriormente.

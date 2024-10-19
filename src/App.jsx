@@ -3,17 +3,24 @@ import { Introduccion, Welcome } from './pages'
 import { SideBar } from './components/SideBar'
 import { BottomNavigation } from './components/'
 import ScrollToTop from './ScrollToTop'
-import "boxicons"
-import { ComponentesFundamentalesEthernet, QueEsRedesDatos, TiposRedes, TiposTransmisionDatos } from './pages/Conceptos-basicos'
+import 'boxicons'
+import {
+	ComponentesFundamentalesEthernet,
+	QueEsRedesDatos,
+	TiposRedes,
+	TiposTransmisionDatos,
+} from './pages/Conceptos-basicos'
+import { QuizConceptosBasicos } from './pages/Conceptos-basicos/QuizConceptosBasicos'
+
 function App() {
 	return (
 		<BrowserRouter>
 			<ScrollToTop>
 				<div className='flex h-screen' style={{ display: 'flex' }}>
-					<div className="md:w-1/4">
+					<div className='md:w-1/4'>
 						<SideBar />
 					</div>
-					<div className="w-full px-5 md:px-14 md:w-3/4">
+					<div className='w-full px-5 md:px-14 md:w-3/4'>
 						<Routes location={location}>
 							<Route path='/' element={<Welcome />} />
 							<Route path='/introduccion' element={<Introduccion />} />
@@ -32,6 +39,10 @@ function App() {
 							<Route
 								path='/conceptos-basicos/componentes-fundamentales-ethernet'
 								element={<ComponentesFundamentalesEthernet />}
+							/>
+							<Route
+								path='/conceptos-basicos-quiz'
+								element={<QuizConceptosBasicos />}
 							/>
 						</Routes>
 						<BottomNavigation />
