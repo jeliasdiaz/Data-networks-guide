@@ -11,6 +11,7 @@ import {
 	TiposTransmisionDatos,
 } from './pages/Conceptos-basicos'
 import { QuizConceptosBasicos } from './pages/Conceptos-basicos/QuizConceptosBasicos'
+import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad'
 
 function App() {
 	return (
@@ -42,7 +43,7 @@ function App() {
 							/>
 							<Route
 								path='/conceptos-basicos/alta-disponibilidad'
-								element={<ComponentesFundamentalesEthernet />}
+								element={<AltaDisponibilidad />}
 							/>
 							<Route
 								path='/conceptos-basicos-quiz'
