@@ -68,7 +68,7 @@ const ContentRenderer = ({ data, level = 1 }) => {
 					{/* Renderizar imagen de contenido si existe */}
 					{item.imgContent && (
 						<div className='flex justify-center mt-2'>
-							<img src={item.imgContent} alt='' className='w-full md:w-3/5' />
+							<img src={item.imgContent} alt='' className='w-full md:max-w-2xl' />
 						</div>
 					)}
 					{/* Renderizar subcontenido recursivamente */}
