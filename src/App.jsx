@@ -6,6 +6,7 @@ import { QueEsRedesDatos } from './pages/Conceptos-basicos/QueEsRedesDatos'
 import ScrollToTop from './ScrollToTop'
 import "boxicons"
 import { ComponentesFundamentalesEthernet } from './pages/Conceptos-basicos/ComponentesFundamentalesEthernet'
+import { TiposRedes } from './pages/Conceptos-basicos/TiposRedes'
 function App() {
 	return (
 		<BrowserRouter>
@@ -21,6 +22,10 @@ function App() {
 							<Route
 								path='/conceptos-basicos/que-es-una-red-de-datos'
 								element={<QueEsRedesDatos />}
+							/>
+							<Route
+								path='/conceptos-basicos/tipos-de-redes-de-datos'
+								element={<TiposRedes />}
 							/>
 							<Route
 								path='/conceptos-basicos/componentes-fundamentales-ethernet'
