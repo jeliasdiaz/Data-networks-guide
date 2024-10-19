@@ -22,12 +22,12 @@
 					},
 					{
 						"title": "Router",
-						"content": "",
+						"content": "Es un dispositivo de red que **conecta múltiples redes diferentes**. Se encarga de *determinar el mejor camino para que los paquetes viajen* desde su origen hasta su destino",
 						"imgContent": ""
 					},
 					{
 						"title": "Medio de conexión",
-						"content": "",
+						"content": "Es el **canal físico o inalámbrico a través del cual se transmiten los datos entre los dispositivos en una red**. Este medio permite que los dispositivos puedan enviar y recibir información mediante señales eléctricas, ópticas o de radiofrecuencia, dependiendo del tipo de medio utilizado. *Profundizaremos sobre esto en la sección _Capa Física_.*",
 						"imgContent": ""
 					}
 				]

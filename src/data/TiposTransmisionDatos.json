@@ -1,44 +1,32 @@
 [
-	{
-		"title": "Titulo",
-		"img": "",
-		"content": "",
-		"imgContent": "",
-		"subContent": [
-			{
-				"title": "Subtitulo 1",
-				"content": "",
-				"imgContent": "",
-				"subContent": [
-					{
-						"title": "Sub-subtitulo 1",
-						"imgContent": "",
-						"content": ""
-					},
-					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
-					}
-				]
-			},
-			{
-				"title": "Subtitulo 2",
-				"content": "",
-				"imgContent": "",
-				"subContent": [
-					{
-						"title": "Sub-subtitulo 2",
-						"imgContent": "",
-						"content": ""
-					},
-					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
-					}
-				]
-			}
-		]
-	}
+    {
+        "title": "Tipos de transmisión de datos",
+        "img": "",
+        "content": "Se clasifican en dos categorías: *según la direccionalidad y según la técnica de transmisión*. No obstante, la primera se abordará en la capa de Enlace. ",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Tipos de transmisión de datos según la técnica de transmisión:",
+                "content": ":",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "*Unicast*",
+                        "content": "Los datos se envían desde un **único emisor a un único receptor** en la red. Por tanto, cada paquete de datos está dirigido específicamente a un único dispositivo. En la vida cotidiana, cuando enviamos un audio por WhatsApp a otra persona, los datos viajan desde nosotros hasta esa persona únicamente, es obvio que pasan por un camino en la red, pero no nos referimos a eso, sino a que el audio lo emitimos nosotros exclusivamente para un **solo receptor**.  ",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "*Multicast*",
+                        "content": "Los datos se envían **desde un solo emisor a un grupo seleccionado de receptores** en la red. Es decir, solo los dispositivos que forman parte de ese grupo reciben los datos. Siguiendo el ejemplo anterior, ahora de nuestro grupo de amigos creamos un subgrupo con ciertos amigos que seleccionamos, de tal forma que el audio que emitimos **solo lo reciben aquellos que incluimos en la comunicación (el subgrupo)**. ",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "*Broadcast*",
+                        "content": "Los datos se envían **desde un único dispositivo emisor para todos los demás dispositivos de la red**, osea que lo podemos entender como un mensaje global. Finalizando el ejemplo, ahora mandamos el audio al grupo donde estan todos nuestros amigos.",
+                        "imgContent": ""
+                    }
+                ]
+            }
+        ]
+    }
 ]
