@@ -18,7 +18,7 @@
 					{
 						"title": "Red LAN",
 						"content": "Local Area Network es la más común a la hora de estudiar una red de datos, pues usan el protocolo **Ethernet**, va de 10 metros a 10 kilometros. Son las que se observan en las oficinas y en los hogares.",
-						"imgContent": ""
+						"imgContent": "/img/redLAN.jpeg"
 					},
 					{
 						"title": "Red MAN",
