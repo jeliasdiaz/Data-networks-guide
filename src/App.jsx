@@ -28,6 +28,10 @@ function App() {
 								element={<TiposRedes />}
 							/>
 							<Route
+								path='/conceptos-basicos/tipos-de-transmision-de-datos'
+								element={<TiposTransmisionDatos />}
+							/>
+							<Route
 								path='/conceptos-basicos/componentes-fundamentales-ethernet'
 								element={<ComponentesFundamentalesEthernet />}
 							/>
