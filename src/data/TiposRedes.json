@@ -23,12 +23,12 @@
 					{
 						"title": "Red MAN",
 						"content": "Metropolitan Area Network cubre un área geográfica amplia, de 10 kilometros a 100 kilometros. Su función es **conectar múltiples redes LAN** en una ciudad, con el objetivo de ofrecer interconexión entre ellas.",
-						"imgContent": ""
+						"imgContent": "/img/redMAN.png"
 					},
 					{
 						"title": "Red WAN",
 						"content": "Wide Area Network que abarca de 100 kilometros para adelante, es decir, un país o continente. Permite la **comunicacion desde un punto geográfico a otro punto geográfico remoto**, por ejemplo cuando juegas desde casa un videojuego online y para ello debes conectarte a un servidor que está en otro país. ",
-						"imgContent": ""
+						"imgContent": "/img/redWAN.jpeg"
 					}
 				]
 			},
