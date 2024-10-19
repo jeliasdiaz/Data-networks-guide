@@ -66,7 +66,13 @@
 						"title": "Red híbrida",
 						"content": "**Combina** dos o más tipos de topologías anteriores. Por ejemplo, una red puede tener *secciones en estrella, conectadas a través de una topología en bus*. La red es diseñada de manera que combine las ventajas de las distintas topologías.",
 						"imgContent": ""
+					},
+					{
+						"title": "",
+						"content": "",
+						"imgContent": "/img/TopologiaRed.png"
 					}
+
 				]
 			}
 		]
