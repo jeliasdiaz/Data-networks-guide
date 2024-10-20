@@ -13,3 +13,30 @@
 		@apply rounded-lg bg-blue-200 /*color trackbar*/;
 	}
 }
+/* Create a custom animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+  
+  ::view-transition-old(root) {
+	animation: 0.25s ease-out both fadeOut;
+  }
+  
+  ::view-transition-new(root) {
+	animation: 0.25s ease-in both fadeIn;
+  }

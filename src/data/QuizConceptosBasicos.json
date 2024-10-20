@@ -1,21 +1,153 @@
 [
 	{
-		"title": "¿Qué es una red de datos?",
+		"title": "¿Cuál es la principal función de un switch en una red Ethernet?",
 		"options": {
-			"a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-			"b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-			"c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-			"d": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+			"a": "Conectar múltiples redes diferentes.",
+			"b": "Conectar múltiples hosts dentro de una red local y gestionar el flujo de datos entre ellos.",
+			"c": "Almacenar y gestionar recursos que los clientes pueden solicitar.",
+			"d": "Duplicar componentes críticos de la red para evitar interrupciones."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué tipo de red cubriría un área geográfica de una ciudad?",
+		"options": {
+			"a": "Red PAN",
+			"b": "Red LAN",
+			"c": "Red MAN",
+			"d": "Red WAN"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "En una red de datos, ¿qué dispositivo se encarga de dirigir los datos entre redes diferentes?",
+		"options": {
+			"a": "Switch",
+			"b": "Router",
+			"c": "Host",
+			"d": "Servidor"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué técnica de transmisión de datos se utiliza cuando los datos se envían desde un único emisor a todos los dispositivos de la red?",
+		"options": {
+			"a": "Unicast",
+			"b": "Multicast",
+			"c": "Broadcast",
+			"d": "Anycast"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "¿Cuál es el propósito principal de una red de datos?",
+		"options": {
+			"a": "Permitir la comunicación entre diferentes equipos y facilitar el intercambio de datos.",
+			"b": "Duplicar componentes críticos de la red.",
+			"c": "Combinar múltiples discos duros físicos en una única unidad lógica.",
+			"d": "Conectar múltiples redes diferentes."
 		},
 		"correctAnswer": "a"
 	},
 	{
-		"title": "¿Qué es una red de datos?",
+		"title": "En una red Ethernet, ¿qué servicio asigna automáticamente direcciones IP a los dispositivos?",
 		"options": {
-			"a": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-			"b": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios.",
-			"c": "Es un conjunto de dispositivos interconectados que se comunican entre sí con el fin de compartir recursos y servicios."
+			"a": "DNS",
+			"b": "DHCP",
+			"c": "FTP",
+			"d": "Proxy"
 		},
 		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué topología de red conecta todos los dispositivos a un único cable central?",
+		"options": {
+			"a": "Red en anillo",
+			"b": "Red de estrella",
+			"c": "Red de bus",
+			"d": "Red de malla"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "¿Qué es la alta disponibilidad (HA) en una red?",
+		"options": {
+			"a": "La capacidad de la red para mantenerse operativa durante la mayor parte del tiempo.",
+			"b": "La capacidad de la red para conectar múltiples redes diferentes.",
+			"c": "La capacidad de la red para asignar direcciones IP automáticamente.",
+			"d": "La capacidad de la red para combinar múltiples discos duros físicos en una única unidad lógica."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "En una red de datos, ¿qué dispositivo almacena y gestiona los recursos que los clientes pueden solicitar?",
+		"options": {
+			"a": "Switch",
+			"b": "Router",
+			"c": "Host",
+			"d": "Servidor"
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"title": "¿Qué tipo de red se utiliza para conectar dispositivos a tecnologías como Bluetooth?",
+		"options": {
+			"a": "Red PAN",
+			"b": "Red LAN",
+			"c": "Red MAN",
+			"d": "Red WAN"
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué técnica de transmisión de datos se utiliza cuando los datos se envían desde un único emisor a un grupo seleccionado de receptores?",
+		"options": {
+			"a": "Unicast",
+			"b": "Multicast",
+			"c": "Broadcast",
+			"d": "Anycast"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué topología de red conecta cada dispositivo a todos los demás dispositivos?",
+		"options": {
+			"a": "Red en anillo",
+			"b": "Red de estrella",
+			"c": "Red de bus",
+			"d": "Red de malla"
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"title": "¿Qué es RAID en el contexto de alta disponibilidad?",
+		"options": {
+			"a": "Una técnica para asignar direcciones IP automáticamente.",
+			"b": "Una metodología que combina múltiples discos duros físicos en una única unidad lógica para cumplir con la redundancia.",
+			"c": "Un dispositivo que conecta múltiples hosts dentro de una red local.",
+			"d": "Un tipo de red que cubre un área geográfica amplia."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una red de datos, ¿qué dispositivo se utiliza para conectar múltiples hosts dentro de una red local?",
+		"options": {
+			"a": "Switch",
+			"b": "Router",
+			"c": "Host",
+			"d": "Servidor"
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué tipo de red abarca de 100 kilómetros en adelante, permitiendo la comunicación desde un punto geográfico a otro remoto?",
+		"options": {
+			"a": "Red PAN",
+			"b": "Red LAN",
+			"c": "Red MAN",
+			"d": "Red WAN"
+		},
+		"correctAnswer": "d"
 	}
 ]
+
