@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Servicios",
+        "img": "Son **funcionalidades o recursos** que una red a los usuarios, aplicaciones o dispositivos de la misma para cumplir con sus necesidades de comunicación y procesamiento de información.",
+        "content": "",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Principales servicios en una red Ethernet",
+                "content": "Los dispositivos que conforman la red trabajan en armonía para ejecutar servicios entre ellos, como:",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "DHCP (Dynamic Host Configuration Protocol):",
+                        "content": "Es un protocolo que se encarga de **asignar automáticamente configuraciones de red**, como la dirección IP, máscara de subred, puerta de enlace predeterminada y servidores DNS a los dispositivos que se conectan a una red. ",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "DNS (Domain Name System):",
+                        "content": "**Traduce los nombres de dominio en direcciones IP**, que son las identificaciones que utilizan los dispositivos para conectarse entre sí en la red. Entonces, cada vez que entras a una aplicación como _www.youtube.com_, tu máquina para comunicarse debe de conocer la dirección IP asociada a dicho nombre de dominio, y allí es donde DNS *resuelve* el problema. ",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "FTP (File Transfer Protocol):",
+                        "content": "Es un protocolo que permite la **transferencia de archivos entre un cliente y un servidor** a través de una red. Así, se emplea para la descarga y carga de archivos entre cliente y servidor.",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "Servicio Web:",
+                        "content": "Es una aplicación que está disponible a través de la web y que permite la comunicación entre diferentes sistemas o aplicaciones mediante protocolos como HTTP/S (*que estudiaremos más adelante*). El ejemplo más común es esta página en la que estás ahora mismo, pues esta se encuentra transmitiendo información a tu sistema por medio de la red.",
+                        "imgContent": ""
+                    },
+                    {
+                        "title": "HTTP/HTTPS (Hypertext Transfer Protocol / Secure):",
+                        "content": "HTTP es un protocolo que **permite la transferencia de páginas web y contenido multimedia entre un navegador (cliente) y un servidor web**. Mientras que **HTTPS es su versión segura**, ya que utiliza cifrado para proteger los datos transmitidos. *Mira en la barra de búsqueda, donde puedes ver la URL de está página, allí notarás que estamos transfiriendo datos por medio de HTTPS*.",
+                        "imgContent": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
