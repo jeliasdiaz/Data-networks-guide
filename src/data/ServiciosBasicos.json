@@ -27,7 +27,7 @@
                     },
                     {
                         "title": "Servicio Web:",
-                        "content": "Es una aplicación que está disponible a través de la web y que permite la comunicación entre diferentes sistemas o aplicaciones mediante protocolos como HTTP/S (*que estudiaremos más adelante*). El ejemplo más común es esta página en la que estás ahora mismo, pues esta se encuentra transmitiendo información a tu sistema por medio de la red.",
+                        "content": "Es una aplicación que está **disponible a través de la web y que permite la comunicación entre diferentes sistemas** mediante protocolos como HTTP/S (*que estudiaremos más adelante*). El ejemplo más común es esta página en la que estás ahora mismo, pues esta se encuentra transmitiendo información a tu sistema por medio de la red.",
                         "imgContent": ""
                     },
                     {
