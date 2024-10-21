@@ -7,33 +7,7 @@
 		"subContent": [
 		
 			
-			{
-				"title": "Principales servicios en una red Ethernet",
-				"content": "Los dispositivos que conforman la red trabajan en armonía para ejecutar servicios entre ellos, como:",
-				"imgContent": "",
-				"subContent": [
-					{
-						"title": "DHCP",
-						"content": "",
-						"imgContent": ""
-					},
-					{
-						"title": "DNS",
-						"content": "",
-						"imgContent": ""
-					},
-					{
-						"title": "Servicio Web",
-						"content": "",
-						"imgContent": ""
-					},
-					{
-						"title": "FTP",
-						"content": "",
-						"imgContent": ""
-					}
-				]
-			},
+			
 			{
 				"title": "Otros conceptos importantes",
 				"content": "Tener en cuenta también los siguientes conceptos:",
