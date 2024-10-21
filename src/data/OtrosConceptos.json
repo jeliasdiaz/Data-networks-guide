@@ -14,7 +14,7 @@
 			{
 				"title": "Ataque DoS (Denegación de Servicio) y Ataque DDoS (Denegación de Servicio Distribuida",
 				"content": "En un ataque **DoS**, el **atacante intenta que un servicio o recurso de red deje de estar disponible**, y para ello, inunda el sistema con **solicitudes excesivas o tráfico malicioso** para que este no pueda manejar las peticiones legítimas. En **DDoS**, el ataque proviene de **múltiples fuentes distribuidas** en diversas partes, en lugar de que un solo sistema ataque el objetivo, un gran número de dispositivos (*a menudo controlados por un atacante a través de una red de bots*) trabajan juntos para enviar tráfico al sistema objetivo de manera simultánea, haciéndolo mucho más potente. **Para solucionar este problema, se opta por el uso de un buen firewall**.",
-				"imgContent": "img/DDoS.jpg"
+				"imgContent": "/img/DDoS.jpg"
 				
 			}
 		]
