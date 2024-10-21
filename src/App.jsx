@@ -13,6 +13,7 @@ import {
 import { QuizConceptosBasicos } from './pages/Conceptos-basicos/QuizConceptosBasicos'
 import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad'
 import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
+import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
 
 function App() {
 	return (
@@ -49,6 +50,10 @@ function App() {
 							<Route
 								path='/conceptos-basicos/servicios'
 								element={<ServiciosBasicos />}
+							/>
+							<Route
+								path='/conceptos-basicos/otros-conceptos'
+								element={<OtrosConceptos />}
 							/>
 							<Route
 								path='/conceptos-basicos-quiz'
