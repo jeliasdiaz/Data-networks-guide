@@ -16,7 +16,13 @@
 				"content": "En un ataque **DoS**, el **atacante intenta que un servicio o recurso de red deje de estar disponible**, y para ello, inunda el sistema con **solicitudes excesivas o tráfico malicioso** para que este no pueda manejar las peticiones legítimas. En **DDoS**, el ataque proviene de **múltiples fuentes distribuidas** en diversas partes, en lugar de que un solo sistema ataque el objetivo, un gran número de dispositivos (*a menudo controlados por un atacante a través de una red de bots*) trabajan juntos para enviar tráfico al sistema objetivo de manera simultánea, haciéndolo mucho más potente. **Para solucionar este problema, se opta por el uso de un buen firewall**.",
 				"imgContent": "/img/DDoS.jpg"
 				
-			}
+			},
+            {
+            "title": "Proxy",
+				"content": "Un proxy es un **servidor que hace de intermediario entre un dispositivo cliente y otro servidor en Internet**. Cuando usas un proxy, en lugar de que tu dispositivo se conecte directamente al sitio que deseas acceder, las solicitudes pasan primero por el proxy. Además, la IP de tu equipo no se muestra en las solicitudes enviadas, sino que es la IP del proxy la que se ve, lo que puede **proporcionar mayor privacidad** mientras navegas por la web. *En muchas ocasiones el proxy trabaja acompañado de un firewall (sistema de seguridad perimetral)*.",
+				"imgContent": "/img/Proxy.png"
+            }
+
 		]
 	}
 ]
