@@ -148,6 +148,55 @@
 			"d": "Red WAN"
 		},
 		"correctAnswer": "d"
+	},
+	{
+		"title": "En una oficina, ¿qué servicio utilizarías para asignar automáticamente direcciones IP a las computadoras de los empleados?",
+		"options": {
+			"a": "DNS",
+			"b": "DHCP",
+			"c": "FTP",
+			"d": "Proxy"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "Si necesitas acceder a un sitio web sin revelar tu dirección IP, ¿qué servicio utilizarías?",
+		"options": {
+			"a": "Firewall",
+			"b": "Proxy",
+			"c": "DNS",
+			"d": "DHCP"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una empresa, ¿qué dispositivo se utiliza para bloquear el acceso no autorizado y permitir solo el tráfico legítimo?",
+		"options": {
+			"a": "Switch",
+			"b": "Router",
+			"c": "Firewall",
+			"d": "Proxy"
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "Si un servidor web está recibiendo tráfico excesivo y malicioso desde múltiples fuentes, ¿qué tipo de ataque está sufriendo?",
+		"options": {
+			"a": "Ataque DoS",
+			"b": "Ataque DDoS",
+			"c": "Ataque de phishing",
+			"d": "Ataque de malware"
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una red corporativa, ¿qué servicio se utiliza para traducir nombres de dominio en direcciones IP?",
+		"options": {
+			"a": "DHCP",
+			"b": "DNS",
+			"c": "FTP",
+			"d": "HTTP"
+		},
+		"correctAnswer": "b"
 	}
 ]
-
