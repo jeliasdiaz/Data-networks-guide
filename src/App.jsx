@@ -15,6 +15,7 @@ import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad
 import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
 import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
 import { ArquitecturaRed } from './pages/Conceptos-basicos/ArquitecturaRed'
+import { Protocolos } from './pages/Conceptos-basicos/Protocolos'
 
 function App() {
 	return (
@@ -63,6 +64,10 @@ function App() {
 							<Route
 								path='/arquitectura-red/que-es-una-arquitectura-red'
 								element={<ArquitecturaRed />}
+							/>
+							<Route
+								path='/arquitectura-red/protocolos'
+								element={<Protocolos />}
 							/>
 						</Routes>
 						<BottomNavigation />

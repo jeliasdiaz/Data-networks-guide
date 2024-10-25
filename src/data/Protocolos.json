@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Protocolos",
+        "img": "",
+        "content": "Conjunto de reglas que rigen la comunicación entre capas homólogas. Sus características son:",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Orientados o no orientados a la comunicación",
+                "content": "",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 1",
+                        "imgContent": "",
+                        "content": ""
+                    },
+                    {
+                        "title": "",
+                        "imgContent": "",
+                        "content": ""
+                    }
+                ]
+            },
+            {
+                "title": "Control de errores",
+                "content": "",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 2",
+                        "imgContent": "",
+                        "content": ""
+                    },
+                    {
+                        "title": "",
+                        "imgContent": "",
+                        "content": ""
+                    }
+                ]
+            },
+            {
+                "title": "Control de flujo",
+                "content": "",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 2",
+                        "imgContent": "",
+                        "content": ""
+                    },
+                    {
+                        "title": "",
+                        "imgContent": "",
+                        "content": ""
+                    }
+                ]
+            },
+            {
+                "title": "Seguridad",
+                "content": "",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Sub-subtitulo 2",
+                        "imgContent": "",
+                        "content": ""
+                    },
+                    {
+                        "title": "",
+                        "imgContent": "",
+                        "content": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
