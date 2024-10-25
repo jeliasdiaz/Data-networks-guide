@@ -14,6 +14,7 @@ import { QuizConceptosBasicos } from './pages/Conceptos-basicos/QuizConceptosBas
 import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad'
 import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
 import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
+import { ArquitecturaRed } from './pages/Conceptos-basicos/ArquitecturaRed'
 
 function App() {
 	return (
@@ -58,6 +59,10 @@ function App() {
 							<Route
 								path='/conceptos-basicos-quiz'
 								element={<QuizConceptosBasicos />}
+							/>
+							<Route
+								path='/arquitectura-red/que-es-una-arquitectura-red'
+								element={<ArquitecturaRed />}
 							/>
 						</Routes>
 						<BottomNavigation />
