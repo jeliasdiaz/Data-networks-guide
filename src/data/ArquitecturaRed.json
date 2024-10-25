@@ -1,25 +1,32 @@
 [
 	{
-		"title": "Titulo",
+		"title": "Arquitectura de red (Capítulo 1.3)",
 		"img": "",
-		"content": "",
+		"content": "Es el **diseño que define la organización de los dispositivos que conforman la red**. Para la planificación de una red, se toma en cuenta el componente hardware *(switches, routers, hosts, etc)* y el componente software *(protocolos y servicios)*.",
 		"imgContent": "",
 		"subContent": [
 			{
-				"title": "Subtitulo 1",
-				"content": "",
+				"title": "Capacidad de transmisión",
+				"content": "Es la **cantidad de datos que se pueden enviar por medio de los canales de comunicación**; de modo que es un aspecto clave a considerar cuando se planea la arquitectura de una red. A continuación están los tipos:",
 				"imgContent": "",
 				"subContent": [
 					{
-						"title": "Sub-subtitulo 1",
-						"imgContent": "",
-						"content": ""
+						"title": "Simplex",
+						"content": "Los datos fluyen es una **sola dirección**, un solo dispositivo envía y el otro solo recibe. El ejemplo más común es la **radio** o la **televisión**, el receptor solo obtiene los datos y hasta ahí.",
+						"imgContent": ""
 					},
 					{
-						"title": "",
-						"imgContent": "",
-						"content": ""
+						"title": "Semiduplex",
+						"content": "Los datos pueden viajar en **dos direcciones**, de emisor a receptor y viceversa, pero **nunca de manera simultanéa**. Por ejemplo, tenemos los **walkie-talkies**, un emisor (_A_) abre el canal para enviar un mensaje, pero el receptor (_B_) debe esperar a que se termine de transmitir para que este pueda abrir el canal y enviar su mensaje (_B_ para _A_).",
+						"imgContent": ""
+					},
+					{
+						"title": "Fullduplex",
+						"content": "Los datos se transmiten **bidireccionalmente**, pero contrario al caso anterior, la comunicación entre emisor y receptor puede ser **simultanéa**. Lo podemos evidenciar en una llamada telefónica, donde ambas partes tienen el canal abierto a disposición de enviar mensajes, y lo pueden hacer a la misma vez.",
+						"imgContent": ""
 					}
+
+
 				]
 			},
 			{
