@@ -7,34 +7,34 @@
         "subContent": [
             {
                 "title": "Orientados o no orientados a la comunicación",
-                "content": "",
+                "content": "Los protocolos **orientados a la conexión** garantizan que los datos lleguen a su destino, pueden validar o verificar que los datos hayan llegado correctamente. Por otro lado, los **no orientados a la conexión** hacen el envío de datos pero no garantizan que estos lleguen a su destino.",
                 "imgContent": "",
                 "subContent": [
                     {
-                        "title": "Sub-subtitulo 1",
+                        "title": "TCP",
                         "imgContent": "",
-                        "content": ""
+                        "content": "Protocolo de la capa de transporte (*que abordaremos más adelante*), es **orientado a la conexión** ya que antes de transmitir los datos, establece una conexión entre los dispositivos de origen y destino, garantizando que los datos lleguen correctamente y en el orden correcto. Se emplea para comunicaciones donde la **seguridad y la fiabilidad de envío de datos sea la prioridad** (La plataforma de un banco)."
                     },
                     {
-                        "title": "",
-                        "imgContent": "",
+                        "title": "UDP",
+                        "imgContent": "Protocolo de la capa de transporte **no orientado a la conexión**, se enfoca en la velocidad de transmisión. UDP no establece una conexión previa, ni verifica si los paquetes han llegado correctamente o en el orden esperado. Se requiere para comuniaciones en las cuales la **demanda de datos es mucha y se deben transmitir velozmente** (Videojuegos).",
                         "content": ""
                     }
                 ]
             },
             {
                 "title": "Control de errores",
-                "content": "",
+                "content": "Se refiere al conjunto de métodos que se utilizan para identificar y, en ciertos casos, corregir errores que ocurren durante la transmisión de datos.",
                 "imgContent": "",
                 "subContent": [
                     {
-                        "title": "Sub-subtitulo 2",
-                        "imgContent": "",
+                        "title": "Detección",
+                        "imgContent": "Se usan técnicas como CRC (Código de Redundancia Cíclica), checksum y los bits de paridad. ",
                         "content": ""
                     },
                     {
-                        "title": "",
-                        "imgContent": "",
+                        "title": "Correción",
+                        "imgContent": "TCP utiliza retransmisiones automáticas (ARQ) cuando un *segmento* no es confirmado, es decir, solicita el reenvío del paquete cuando detecta un error",
                         "content": ""
                     }
                 ]
