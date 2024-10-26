@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Capa de enlace",
+        "img": "",
+        "content": "La capa de enlace de datos es responsable de la transferencia de datos entre dos dispositivos en la misma red. Esta capa se encarga de la detección y corrección de errores, así como del control de flujo.",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "MAC",
+                "content": "La dirección MAC (Media Access Control) es una dirección única asignada a cada dispositivo de red para su identificación.",
+                "imgContent": "",
+                "subContent": []
+            },
+            {
+                "title": "Entramado",
+                "content": "El entramado es el proceso de dividir los datos en unidades manejables llamadas tramas.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Técnicas de entramado",
+                        "content": "Existen varias técnicas para realizar el entramado de datos.",
+                        "imgContent": "",
+                        "subContent": [
+                            {
+                                "title": "Conteo de bytes",
+                                "content": "Esta técnica utiliza un campo en la trama que indica el número de bytes que contiene.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "Banderas",
+                                "content": "Se utilizan patrones específicos de bits para indicar el inicio y el final de una trama.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "Violación de código",
+                                "content": "Se emplean secuencias de bits que no se utilizan en el código normal para marcar los límites de la trama.",
+                                "imgContent": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Control de errores",
+                "content": "El control de errores asegura que los datos recibidos sean los mismos que los enviados, detectando y corrigiendo errores.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Técnicas de control de errores",
+                        "content": "Existen varias técnicas para el control de errores en la transmisión de datos.",
+                        "imgContent": "",
+                        "subContent": [
+                            {
+                                "title": "Bits de paridad",
+                                "content": "Se añade un bit adicional para hacer que el número total de bits 1 en la trama sea par o impar.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "Checksum",
+                                "content": "Se calcula un valor basado en los datos de la trama y se envía junto con ella. El receptor recalcula el valor y lo compara con el recibido.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "CRC",
+                                "content": "El Código de Redundancia Cíclica (CRC) es un método más robusto que utiliza divisiones polinómicas para detectar errores.",
+                                "imgContent": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Control de flujo",
+                "content": "El control de flujo gestiona la velocidad de transmisión de datos entre dos dispositivos para evitar la saturación del receptor.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Técnicas de control de flujo",
+                        "content": "Existen varias técnicas para el control de flujo en la transmisión de datos.",
+                        "imgContent": "",
+                        "subContent": [
+                            {
+                                "title": "Stop and wait",
+                                "content": "El emisor envía una trama y espera una confirmación antes de enviar la siguiente.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "Retroceso n",
+                                "content": "El emisor puede enviar varias tramas antes de necesitar una confirmación, pero debe retroceder y retransmitir desde la trama no confirmada en caso de error.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "Repetición selectiva",
+                                "content": "El emisor solo retransmite las tramas que no fueron confirmadas, en lugar de todas las tramas desde la última confirmada.",
+                                "imgContent": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Concepto y proceso del ARP",
+                "content": "El Protocolo de Resolución de Direcciones (ARP) se utiliza para mapear direcciones IP a direcciones MAC en una red local.",
+                "imgContent": "",
+                "subContent": []
+            }
+        ]
+    }
+]

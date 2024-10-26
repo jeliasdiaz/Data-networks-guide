@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Capa Física",
+        "img": "",
+        "content": "La capa física es la primera capa del modelo OSI y se encarga de la transmisión de bits a través de un medio físico.",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Medios Guiados",
+                "content": "Los medios guiados son aquellos que utilizan un medio físico para la transmisión de datos.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Cable Coaxial",
+                        "imgContent": "",
+                        "content": "El cable coaxial es un tipo de cable que tiene un conductor interno rodeado por un aislante, una malla metálica y una cubierta externa. Se utiliza comúnmente para la transmisión de señales de televisión y datos de internet."
+                    },
+                    {
+                        "title": "Twisted Pair",
+                        "imgContent": "",
+                        "content": "El cable de par trenzado (Twisted Pair) consiste en dos conductores que están trenzados entre sí para reducir la interferencia electromagnética. Es el tipo de cable más comúnmente utilizado en redes de área local (LAN)."
+                    },
+                    {
+                        "title": "Fibra Óptica",
+                        "imgContent": "",
+                        "content": "La fibra óptica utiliza filamentos de vidrio o plástico para transmitir datos en forma de pulsos de luz. Ofrece altas velocidades de transmisión y es inmune a las interferencias electromagnéticas."
+                    }
+                ]
+            },
+            {
+                "title": "Medios No Guiados",
+                "content": "Los medios no guiados no utilizan un medio físico, sino que transmiten datos a través del aire o el espacio.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Zonas del Espectro Electromagnético",
+                        "imgContent": "",
+                        "content": "Las zonas del espectro electromagnético incluyen radiofrecuencia, microondas e infrarroja. Cada una tiene sus propias características y aplicaciones en la transmisión de datos."
+                    },
+                    {
+                        "title": "Wifi",
+                        "imgContent": "",
+                        "content": "El Wifi es una tecnología que permite la conexión inalámbrica de dispositivos a una red local. Utiliza ondas de radio para transmitir datos."
+                    },
+                    {
+                        "title": "Satélites (GEO y LEO)",
+                        "imgContent": "",
+                        "content": "Los satélites GEO (Geostacionarios) y LEO (Órbita Baja) se utilizan para la transmisión de datos a largas distancias. Los satélites GEO permanecen en una posición fija relativa a la Tierra, mientras que los satélites LEO orbitan a menor altura y tienen menor latencia."
+                    }
+                ]
+            },
+            {
+                "title": "Buenas Prácticas para la Planeación en la Capa Física",
+                "content": "Para una planeación efectiva en la capa física, es importante considerar factores como la elección del medio de transmisión adecuado, la minimización de interferencias y la implementación de medidas de seguridad.",
+                "imgContent": "",
+                "subContent": []
+            }
+        ]
+    }
+]

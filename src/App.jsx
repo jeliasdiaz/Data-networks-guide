@@ -16,6 +16,9 @@ import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
 import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
 import { ArquitecturaRed } from './pages/Conceptos-basicos/ArquitecturaRed'
 import { Protocolos } from './pages/Conceptos-basicos/Protocolos'
+import { CapaFisica } from './pages/CaracteristicasCapas/CapaFisica'
+import { CapaEnlace } from './pages/CaracteristicasCapas/CapaEnlace'
+import { CapaInternet } from './pages/CaracteristicasCapas/CapaInternet'
 
 function App() {
 	return (
@@ -68,6 +71,18 @@ function App() {
 							<Route
 								path='/arquitectura-red/protocolos'
 								element={<Protocolos />}
+							/>
+							<Route
+								path='/caracteristicas-capas/capa-fisica'
+								element={<CapaFisica />}
+							/>
+							<Route
+								path='/caracteristicas-capas/capa-enlace'
+								element={<CapaEnlace />}
+							/>
+							<Route
+								path='/caracteristicas-capas/capa-internet'
+								element={<CapaInternet />}
 							/>
 						</Routes>
 						<BottomNavigation />

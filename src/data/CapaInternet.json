@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Capa de Internet",
+        "img": "",
+        "content": "En esta sección, explicaremos los conceptos clave de la capa de Internet de una manera sencilla y clara, ideal para estudiantes.",
+        "imgContent": "",
+        "subContent": [
+            {
+                "title": "Medidores del desempeño de la red",
+                "content": "Los medidores del desempeño de la red son herramientas que nos ayudan a entender cómo funciona nuestra red y qué tan eficiente es.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Hops",
+                        "imgContent": "",
+                        "content": "Los 'hops' son los saltos que hace un paquete de datos desde su origen hasta su destino. Cada salto representa un router o dispositivo de red por el que pasa el paquete."
+                    },
+                    {
+                        "title": "Packet Loss",
+                        "imgContent": "",
+                        "content": "La pérdida de paquetes ocurre cuando uno o más paquetes de datos no llegan a su destino. Esto puede ser causado por problemas en la red, como congestión o errores de transmisión."
+                    },
+                    {
+                        "title": "Delay",
+                        "imgContent": "",
+                        "content": "El 'delay' es el tiempo que tarda un paquete de datos en viajar desde el origen hasta el destino. Un alto delay puede afectar negativamente la calidad de la comunicación en la red."
+                    },
+                    {
+                        "title": "Jitter",
+                        "imgContent": "",
+                        "content": "El 'jitter' es la variación en el tiempo de llegada de los paquetes de datos. Un alto jitter puede causar problemas en aplicaciones sensibles al tiempo, como las videollamadas."
+                    }
+                ]
+            },
+            {
+                "title": "Direccionamiento IP",
+                "content": "El direccionamiento IP es el sistema que usamos para asignar direcciones únicas a cada dispositivo en una red.",
+                "imgContent": "",
+                "subContent": [
+                    {
+                        "title": "Concepto",
+                        "imgContent": "",
+                        "content": "Una dirección IP es una etiqueta numérica asignada a cada dispositivo conectado a una red que utiliza el Protocolo de Internet para la comunicación."
+                    },
+                    {
+                        "title": "Máscara de subred",
+                        "imgContent": "",
+                        "content": "La máscara de subred es una combinación de bits que divide una dirección IP en una parte de red y una parte de host, permitiendo la creación de subredes dentro de una red más grande."
+                    },
+                    {
+                        "title": "Tipos de direcciones IP",
+                        "imgContent": "",
+                        "content": "Existen dos tipos principales de direcciones IP: IPv4 e IPv6. IPv4 utiliza direcciones de 32 bits, mientras que IPv6 utiliza direcciones de 128 bits, permitiendo una mayor cantidad de direcciones únicas."
+                    }
+                ]
+            }
+        ]
+    }
+]
