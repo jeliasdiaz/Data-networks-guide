@@ -1,0 +1,88 @@
+[
+	{
+		"title": "Modelos de referencia de redes de datos",
+		"img": "",
+		"content": "Tenemos el modelo de refencia OSI y el modelo de referencia TCP/IP, siendo este último el más empleado en la actualidad.",
+		"imgContent": "",
+		"subContent": [
+			{
+				"title": "OSI",
+				"content": "Desarrollado por la ISO (Organización Internacional de Normalización), organiza las funciones de red en siete capas:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Capa física",
+						"imgContent": "",
+						"content": "**Los datos se transmiten en bits**, en 0's y 1's, a tráves de señales eléctricas, luces de fibra óptica, o de forma inalámbrica. Emplea protocolos como Ethernet, Token Ring y HDLC."
+					},
+					{
+						"title": "Capa de enlace",
+						"imgContent": "",
+						"content": "Organiza los bits en **tramas** (frames) y maneja la **transferencia de datos entre dos nodos en la misma red**. Proporciona detección de errores básica y control de flujo. Se subdivide en MAC y en control de enlace lógico."
+					},
+                    {
+						"title": "Capa de red",
+						"imgContent": "",
+						"content": "Conjunta las tramas para formar **paquetes que enruta (direcciona) entre redes**. Aquí es donde se asignan las direcciones IP de origen y de destino al paquete, y se determina el mejor camino para llegar al destino."
+					},
+                    {
+						"title": "Capa de transporte",
+						"imgContent": "",
+						"content": "Proporciona una **comunicación de extremo a extremo confiable**, y transporta los paquetes ya convertidos en segmentos (TCP) o en datagramas (UDP)."
+					},
+                    {
+						"title": "Capa de sesión",
+						"imgContent": "",
+						"content": "Cuando se logra la comunicación, se abren **sesiones** entre los dispositivos que aquí son **gestionadas y mantenidas**. *Sincroniza y gestiona la comunicación*."
+					},
+                    {
+						"title": "Capa de presentación",
+						"imgContent": "",
+						"content": "Actúa como un **traductor de formatos** en los que se presentan los datos, asegurando que estos sean **interpretables** por el emisor. También puede encargarse del cifrado y la compresión de datos."
+					},
+                    {
+						"title": "Capa de aplicación",
+						"imgContent": "",
+						"content": "Es la capa donde las **aplicaciones** de los usuarios finales **interactúan directamente con la red**, como el navegador web.)."
+					}
+                    
+
+				]
+			},
+			{
+				"title": "Modelo TCP/IP",
+				"content": "Funciona con 5 capas, simplificando el modelo OSI:",
+				"imgContent": "",
+				"subContent": [
+					{
+						"title": "Acceso a la red",
+						"imgContent": "",
+						"content": "Es el **equivalente a la capa física y la capa de enlace** del modelo OSI. Pero funciona con los protocolos Ethernet, Wi-Fi, PPP y ARP."
+					},
+					{
+						"title": "Internet",
+						"imgContent": "",
+						"content": "Es la capa equivalente a la de red del modelo OSI. No obstante, en esta **aparecen protocolos como el IP, ICMP, y el ARP**."
+					},
+                    {
+						"title": "Transporte",
+						"imgContent": "",
+						"content": "Equivale a la capa de **transporte** en OSI, sin embargo, **simplifica** algunas funciones más secundarias."
+					},
+                    {
+						"title": "Aplicación",
+						"imgContent": "",
+						"content": "**Unifica** la capa de **sesión**, de **presentación** y de **aplicación** del modelo OSI."
+					}
+
+				]
+                
+			}
+            {
+               "title": "",
+				"content": "",
+				"imgContent": "/img/ModelosReferencia.png" 
+            }
+		]
+	}
+]

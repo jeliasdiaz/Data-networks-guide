@@ -15,10 +15,11 @@ import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad
 import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
 import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
 import { ArquitecturaRed } from './pages/Conceptos-basicos/ArquitecturaRed'
-import { Protocolos } from './pages/Conceptos-basicos/Protocolos'
+import { Protocolos } from './pages/ArquitecturaRed/Protocolos'
 import { CapaFisica } from './pages/CaracteristicasCapas/CapaFisica'
 import { CapaEnlace } from './pages/CaracteristicasCapas/CapaEnlace'
 import { CapaInternet } from './pages/CaracteristicasCapas/CapaInternet'
+import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
 
 function App() {
 	return (
@@ -71,6 +72,10 @@ function App() {
 							<Route
 								path='/arquitectura-red/protocolos'
 								element={<Protocolos />}
+							/>
+							<Route
+								path='/arquitectura-red/modelos-de-referencia'
+								element={<ModelosReferencia />}
 							/>
 							<Route
 								path='/caracteristicas-capas/capa-fisica'

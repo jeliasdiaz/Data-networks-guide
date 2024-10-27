@@ -17,20 +17,20 @@
                     },
                     {
                         "title": "UDP",
-                        "imgContent": "Protocolo de la capa de transporte **no orientado a la conexión**, se enfoca en la velocidad de transmisión. UDP no establece una conexión previa, ni verifica si los paquetes han llegado correctamente o en el orden esperado. Se requiere para comuniaciones en las cuales la **demanda de datos es mucha y se deben transmitir velozmente** (Videojuegos).",
-                        "content": ""
+                        "imgContent": "",
+                        "content": "Protocolo de la capa de transporte **no orientado a la conexión**, se enfoca en la velocidad de transmisión. UDP no establece una conexión previa, ni verifica si los paquetes han llegado correctamente o en el orden esperado. Se requiere para comuniaciones en las cuales la **demanda de datos es mucha y se deben transmitir velozmente** (Videojuegos)."
                     }
                 ]
             },
             {
                 "title": "Control de errores",
-                "content": "Se refiere al conjunto de métodos que se utilizan para identificar y, en ciertos casos, corregir errores que ocurren durante la transmisión de datos.",
+                "content": "Se refiere al conjunto de métodos que se utilizan para **identificar** y, en ciertos casos, **corregir errores** que ocurren durante la transmisión de datos.",
                 "imgContent": "",
                 "subContent": [
                     {
                         "title": "Detección",
                         "imgContent": "",
-                        "content": "Se usan técnicas como CRC (Código de Redundancia Cíclica), checksum y los bits de paridad."
+                        "content": "Se usan técnicas como **CRC**(Código de Redundancia Cíclica), checksum y los bits de paridad."
                     },
                     {
                         "title": "Correción",
@@ -41,27 +41,27 @@
             },
             {
                 "title": "Control de flujo",
-                "content": "Los protocolos tienen mecanismos para regular la velocidad a la que el emisor envía los datos para evitar sobrecargar al receptor (*que se estudiaran luego en la capa de enlace*).",
+                "content": "Los protocolos tienen mecanismos para **regular la velocidad a la que el emisor envía los datos** para evitar sobrecargar al receptor (*que se estudiaran luego en la capa de enlace*).",
                 "imgContent": ""
             },
             {
                 "title": "Seguridad",
-                "content": "Los protocolos deben implementar medidas que protegen la transmisión de datos contra accesos no autorizados, manipulación, interceptación y ataques. Algunas de estas son:",
+                "content": "Los protocolos deben implementar medidas que **protegen la transmisión de datos** contra accesos no autorizados, manipulación, interceptación y ataques. Algunas de estas son:",
                 "imgContent": "",
                 "subContent": [
                     {
                         "title": "Cifrado",
-                        "content": "Convierte los datos en un formato ilegible, que es solo entendible por el receptor. Por ejemplo: TLS (Transport Layer Security), empleado para cifrar los datos transmitidos vía Internet.",
+                        "content": "Convierte los datos en un **formato ilegible**, que es solo entendible por el receptor. Por ejemplo: TLS (Transport Layer Security), empleado para cifrar los datos transmitidos vía Internet.",
                         "imgContent": ""
                     },
                     {
                         "title": "Autentificación",
-                        "content": "Asegura que solo los usuarios autorizados accedan a los recursos de la red. Protocolos SSL requieren que el emisor y el receptor validen sus identidades antes de permitir la transmisión.",
+                        "content": "Asegura que **solo los usuarios autorizados accedan a los recursos de la red**. Protocolos SSL requieren que el emisor y el receptor validen sus identidades antes de permitir la transmisión.",
                         "imgContent": ""
                     },
                     {
                         "title": "Hashing",
-                        "content": "Toma un dato de entrada y lo convierte en un valor de longitud fija, llamado hash. Este hash es único para cada entrada diferente (huella dígital), lo que garantiza la integridad de los datos.",
+                        "content": "Toma un dato de entrada y lo convierte en un **valor de longitud fija**, llamado hash. Este hash es **único** para cada entrada diferente (huella dígital), lo que garantiza la integridad de los datos.",
                         "imgContent": ""
                     }
                 ]
