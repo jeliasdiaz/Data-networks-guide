@@ -87,7 +87,7 @@ export const BottomNavigation = () => {
   };
 
   return (
-    <div className="flex my-10 pb-10 w-full justify-between">
+    <div className="flex my-10 pb-10 md:px-10 w-full justify-between">
       <button className="px-6 py-3 bg-blue-300 rounded-lg hover:scale-95 hover:bg-blue-200 transition duration-300" onClick={handlePrevious}>
         Anterior
       </button>
