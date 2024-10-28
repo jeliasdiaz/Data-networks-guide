@@ -14,12 +14,12 @@ import { QuizConceptosBasicos } from './pages/Conceptos-basicos/QuizConceptosBas
 import { AltaDisponibilidad } from './pages/Conceptos-basicos/AltaDisponibilidad'
 import { ServiciosBasicos } from './pages/Conceptos-basicos/ServiciosBasicos'
 import { OtrosConceptos } from './pages/Conceptos-basicos/OtrosConceptos'
-import { ArquitecturaRed } from './pages/Conceptos-basicos/ArquitecturaRed'
 import { Protocolos } from './pages/ArquitecturaRed/Protocolos'
 import { CapaFisica } from './pages/CaracteristicasCapas/CapaFisica'
 import { CapaEnlace } from './pages/CaracteristicasCapas/CapaEnlace'
 import { CapaInternet } from './pages/CaracteristicasCapas/CapaInternet'
 import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
+import { ArquitecturaRed } from './pages/ArquitecturaRed/ArquitecturaRed'
 
 function App() {
 	return (
@@ -29,7 +29,7 @@ function App() {
 					<div className='md:w-1/4'>
 						<SideBar />
 					</div>
-					<div className='w-full px-5 md:px-14 md:w-3/4'>
+					<div className='w-full px-5 md:px-0 md:w-3/4'>
 						<Routes location={location}>
 							<Route path='/' element={<Welcome />} />
 							<Route path='/introduccion' element={<Introduccion />} />
@@ -89,6 +89,7 @@ function App() {
 								path='/caracteristicas-capas/capa-internet'
 								element={<CapaInternet />}
 							/>
+
 						</Routes>
 						<BottomNavigation />
 					</div>
