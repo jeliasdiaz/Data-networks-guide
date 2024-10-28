@@ -1,0 +1,182 @@
+[
+	{
+		"title": "¿Cuál es la función principal de la capa física en el modelo OSI?",
+		"options": {
+			"a": "Transmisión de bits a través de un medio físico.",
+			"b": "Control de flujo y corrección de errores.",
+			"c": "Direccionamiento lógico y enrutamiento.",
+			"d": "Establecimiento de sesiones entre aplicaciones."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué tipo de cable es más comúnmente utilizado en redes de área local (LAN)?",
+		"options": {
+			"a": "Cable coaxial.",
+			"b": "Fibra óptica.",
+			"c": "Cable de par trenzado (Twisted Pair).",
+			"d": "Cable de par paralelo."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "¿Cuál es una ventaja de la fibra óptica sobre otros medios de transmisión?",
+		"options": {
+			"a": "Es más barata.",
+			"b": "Es inmune a las interferencias electromagnéticas.",
+			"c": "Es más fácil de instalar.",
+			"d": "Tiene mayor latencia."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué tecnología permite la conexión inalámbrica de dispositivos a una red local?",
+		"options": {
+			"a": "Cable coaxial.",
+			"b": "Fibra óptica.",
+			"c": "Wifi.",
+			"d": "Cable de par trenzado."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "¿Qué tipo de satélite tiene menor latencia?",
+		"options": {
+			"a": "Satélite GEO (Geostacionario).",
+			"b": "Satélite LEO (Órbita Baja).",
+			"c": "Satélite MEO (Órbita Media).",
+			"d": "Satélite HEO (Órbita Alta)."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué es una dirección MAC?",
+		"options": {
+			"a": "Una dirección lógica asignada a cada dispositivo en una red.",
+			"b": "Una dirección única asignada a cada dispositivo de red para su identificación.",
+			"c": "Una dirección utilizada para el enrutamiento de paquetes.",
+			"d": "Una dirección utilizada para la transmisión de datos a través de un medio físico."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "¿Qué técnica de entramado utiliza un campo en la trama que indica el número de bytes que contiene?",
+		"options": {
+			"a": "Conteo de bytes.",
+			"b": "Banderas.",
+			"c": "Violación de código.",
+			"d": "Checksum."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué técnica de control de errores añade un bit adicional para hacer que el número total de bits 1 en la trama sea par o impar?",
+		"options": {
+			"a": "Bits de paridad.",
+			"b": "Checksum.",
+			"c": "CRC.",
+			"d": "Violación de código."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "¿Qué técnica de control de flujo gestiona la velocidad de transmisión de datos entre dos dispositivos para evitar la saturación del receptor?",
+		"options": {
+			"a": "Stop and wait.",
+			"b": "Retroceso n.",
+			"c": "Repetición selectiva.",
+			"d": "Todas las anteriores."
+		},
+		"correctAnswer": "d"
+	},
+	{
+		"title": "En una red de oficina, ¿qué medio de transmisión sería más adecuado para minimizar la interferencia electromagnética?",
+		"options": {
+			"a": "Cable coaxial.",
+			"b": "Cable de par trenzado.",
+			"c": "Fibra óptica.",
+			"d": "Wifi."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "En una videollamada, ¿qué problema puede causar un alto jitter?",
+		"options": {
+			"a": "Pérdida de paquetes.",
+			"b": "Retrasos en la transmisión.",
+			"c": "Variación en el tiempo de llegada de los paquetes.",
+			"d": "Interferencias electromagnéticas."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "En una red local, ¿qué protocolo se utiliza para mapear direcciones IP a direcciones MAC?",
+		"options": {
+			"a": "TCP.",
+			"b": "UDP.",
+			"c": "ARP.",
+			"d": "ICMP."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "En una red congestionada, ¿qué técnica de control de flujo podría ser más efectiva?",
+		"options": {
+			"a": "Stop and wait.",
+			"b": "Retroceso n.",
+			"c": "Repetición selectiva.",
+			"d": "Conteo de bytes."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una red de datos, ¿qué capa es responsable de la detección y corrección de errores?",
+		"options": {
+			"a": "Capa física.",
+			"b": "Capa de enlace de datos.",
+			"c": "Capa de red.",
+			"d": "Capa de transporte."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una red de datos, ¿qué capa se encarga del direccionamiento lógico y enrutamiento?",
+		"options": {
+			"a": "Capa física.",
+			"b": "Capa de enlace de datos.",
+			"c": "Capa de red.",
+			"d": "Capa de transporte."
+		},
+		"correctAnswer": "c"
+	},
+	{
+		"title": "En una red de datos, ¿qué capa se encarga de la transmisión de bits a través de un medio físico?",
+		"options": {
+			"a": "Capa física.",
+			"b": "Capa de enlace de datos.",
+			"c": "Capa de red.",
+			"d": "Capa de transporte."
+		},
+		"correctAnswer": "a"
+	},
+	{
+		"title": "En una red de datos, ¿qué capa se encarga del control de flujo?",
+		"options": {
+			"a": "Capa física.",
+			"b": "Capa de enlace de datos.",
+			"c": "Capa de red.",
+			"d": "Capa de transporte."
+		},
+		"correctAnswer": "b"
+	},
+	{
+		"title": "En una red de datos, ¿qué capa se encarga del establecimiento de sesiones entre aplicaciones?",
+		"options": {
+			"a": "Capa de sesión.",
+			"b": "Capa de presentación.",
+			"c": "Capa de aplicación.",
+			"d": "Capa de transporte."
+		},
+		"correctAnswer": "a"
+	}
+]

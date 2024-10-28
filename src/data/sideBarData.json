@@ -60,6 +60,10 @@
         {
           "title": "Modelos de referencia de redes de datos",
           "url": "/arquitectura-red/modelos-de-referencia"
+        },
+        {
+          "title": "Quiz",
+          "url": "/arquitectura-red/quiz"
         }
       ]
     },
@@ -78,6 +82,10 @@
         {
           "title": "Capa internet",
           "url": "/caracteristicas-capas/capa-internet"
+        },
+        {
+          "title": "Quiz",
+          "url": "/caracteristicas-capas/quiz"
         }
       ]
     }

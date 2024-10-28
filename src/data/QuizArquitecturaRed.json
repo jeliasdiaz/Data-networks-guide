@@ -1,0 +1,203 @@
+
+[
+    {
+        "title": "¿Cuál es la principal diferencia entre el modelo OSI y el modelo TCP/IP?",
+        "options": {
+            "a": "El modelo OSI tiene 7 capas y el modelo TCP/IP tiene 5 capas.",
+            "b": "El modelo OSI tiene 5 capas y el modelo TCP/IP tiene 7 capas.",
+            "c": "El modelo OSI es más reciente que el modelo TCP/IP.",
+            "d": "El modelo TCP/IP es más complejo que el modelo OSI."
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "title": "¿Qué capa del modelo OSI se encarga de la comunicación de extremo a extremo confiable?",
+        "options": {
+            "a": "Capa de red",
+            "b": "Capa de transporte",
+            "c": "Capa de enlace",
+            "d": "Capa de aplicación"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "title": "En el modelo TCP/IP, ¿qué capa es equivalente a la capa de red del modelo OSI?",
+        "options": {
+            "a": "Capa de acceso a la red",
+            "b": "Capa de transporte",
+            "c": "Capa de internet",
+            "d": "Capa de aplicación"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué protocolo de la capa de transporte es orientado a la conexión?",
+        "options": {
+            "a": "UDP",
+            "b": "IP",
+            "c": "TCP",
+            "d": "ARP"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué técnica de control de errores utiliza TCP para garantizar la entrega correcta de los datos?",
+        "options": {
+            "a": "Checksum",
+            "b": "CRC",
+            "c": "Retransmisiones automáticas (ARQ)",
+            "d": "Bits de paridad"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué tipo de transmisión permite la comunicación bidireccional simultánea?",
+        "options": {
+            "a": "Simplex",
+            "b": "Semiduplex",
+            "c": "Fullduplex",
+            "d": "Unidireccional"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué protocolo se utiliza para cifrar los datos transmitidos vía Internet?",
+        "options": {
+            "a": "TCP",
+            "b": "UDP",
+            "c": "TLS",
+            "d": "ARP"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué capa del modelo OSI actúa como traductor de formatos de datos?",
+        "options": {
+            "a": "Capa de aplicación",
+            "b": "Capa de presentación",
+            "c": "Capa de sesión",
+            "d": "Capa de enlace"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "title": "¿Qué protocolo de la capa de transporte no garantiza la entrega de los datos?",
+        "options": {
+            "a": "TCP",
+            "b": "UDP",
+            "c": "IP",
+            "d": "ICMP"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "title": "¿Qué método de control de errores se utiliza para identificar errores durante la transmisión de datos?",
+        "options": {
+            "a": "Retransmisiones automáticas (ARQ)",
+            "b": "Checksum",
+            "c": "Cifrado",
+            "d": "Hashing"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "title": "En una llamada telefónica, ¿qué tipo de transmisión se utiliza?",
+        "options": {
+            "a": "Simplex",
+            "b": "Semiduplex",
+            "c": "Fullduplex",
+            "d": "Unidireccional"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué protocolo se utiliza para asignar direcciones IP a los dispositivos en una red?",
+        "options": {
+            "a": "TCP",
+            "b": "UDP",
+            "c": "IP",
+            "d": "ARP"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "title": "¿Qué capa del modelo OSI se encarga de la gestión y mantenimiento de las sesiones?",
+        "options": {
+            "a": "Capa de aplicación",
+            "b": "Capa de presentación",
+            "c": "Capa de sesión",
+            "d": "Capa de transporte"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "¿Qué protocolo se utiliza para verificar la identidad de los usuarios antes de permitir la transmisión de datos?",
+        "options": {
+            "a": "TCP",
+            "b": "UDP",
+            "c": "SSL",
+            "d": "ARP"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "En una red de datos, ¿qué dispositivo se utiliza para interconectar diferentes redes?",
+        "options": {
+            "a": "Switch",
+            "b": "Router",
+            "c": "Hub",
+            "d": "Repetidor"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "title": "¿Qué técnica de control de errores utiliza bits de paridad?",
+        "options": {
+            "a": "Checksum",
+            "b": "CRC",
+            "c": "Retransmisiones automáticas (ARQ)",
+            "d": "Bits de paridad"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "title": "En una red de datos, ¿qué dispositivo se utiliza para conectar múltiples dispositivos en la misma red?",
+        "options": {
+            "a": "Switch",
+            "b": "Router",
+            "c": "Hub",
+            "d": "Repetidor"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "title": "¿Qué protocolo se utiliza para convertir los datos en un formato ilegible para proteger la transmisión de datos?",
+        "options": {
+            "a": "TCP",
+            "b": "UDP",
+            "c": "TLS",
+            "d": "ARP"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "title": "En una red de datos, ¿qué dispositivo se utiliza para amplificar la señal y extender el alcance de la red?",
+        "options": {
+            "a": "Switch",
+            "b": "Router",
+            "c": "Hub",
+            "d": "Repetidor"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "title": "¿Qué técnica de seguridad convierte un dato de entrada en un valor de longitud fija único?",
+        "options": {
+            "a": "Cifrado",
+            "b": "Autentificación",
+            "c": "Hashing",
+            "d": "Checksum"
+        },
+        "correctAnswer": "c"
+    }
+]
