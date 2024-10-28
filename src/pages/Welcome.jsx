@@ -1,6 +1,6 @@
 export const Welcome = () => {
 	return (
-		<div className='flex flex-col text-center items-center gap-y-10 mt-20'>
+		<div className='flex flex-col text-center justify-center items-center gap-y-10 my-16'>
 			<h1 className='text-xl font-bold'>
 				¡Bienvenido al curso de Redes de datos!
 			</h1>
