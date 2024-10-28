@@ -20,6 +20,8 @@ import { CapaEnlace } from './pages/CaracteristicasCapas/CapaEnlace'
 import { CapaInternet } from './pages/CaracteristicasCapas/CapaInternet'
 import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
 import { ArquitecturaRed } from './pages/ArquitecturaRed/ArquitecturaRed'
+import { QuizArquitecturaRed } from './pages/ArquitecturaRed/QuizArquitecturaRed'
+import { QuizCaracteristicasCapas } from './pages/CaracteristicasCapas/QuizCaracteristicasCapas'
 
 function App() {
 	return (
@@ -89,7 +91,14 @@ function App() {
 								path='/caracteristicas-capas/capa-internet'
 								element={<CapaInternet />}
 							/>
-
+							<Route
+								path='/arquitectura-red/quiz'
+								element={<QuizArquitecturaRed />}
+							/>
+							<Route
+								path='/caracteristicas-capas/quiz'
+								element={<QuizCaracteristicasCapas />}
+							/>
 						</Routes>
 						<BottomNavigation />
 					</div>
