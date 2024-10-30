@@ -1,6 +1,6 @@
 [
     {
-        "title": "Concepto de H.AAAA",
+        "title": "Concepto de H.A",
         "content": "La alta disponibilidad (HA) se refiere a la **capacidad de la red para mantenerse operativa durante la mayor parte del tiempo**, buscando minimizar las interrupciones. El objetivo principal es evitar el tiempo de inactividad, que puede ser costoso tanto en términos económicos como de servicio para las organizaciones. Para ello, se siguen unas medidas como la **redundancia**, que es *duplicar componentes críticos de la red, como servidores, enrutadores, conmutadores y los medios de comunicación, para que si uno falla, otro asuma su función sin interrumpir el servicio*. ",
         "imgContent": "",
         "subContent": [
