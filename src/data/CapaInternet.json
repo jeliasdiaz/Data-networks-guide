@@ -40,18 +40,60 @@
                     {
                         "title": "Concepto",
                         "imgContent": "",
-                        "content": "Una dirección IP es una etiqueta numérica asignada a cada dispositivo conectado a una red que utiliza el Protocolo de Internet para la comunicación."
+                        "content": "Una dirección IP es una etiqueta numérica asignada a cada dispositivo conectado a una red que utiliza el Protocolo de Internet (IP) para la comunicación."
                     },
                     {
                         "title": "Máscara de subred",
                         "imgContent": "",
-                        "content": "La máscara de subred es una combinación de bits que divide una dirección IP en una parte de red y una parte de host, permitiendo la creación de subredes dentro de una red más grande."
+                        "content": "La máscara de subred es una combinación de bits que divide una dirección IP en una parte de red y una parte de host."
                     },
                     {
                         "title": "Tipos de direcciones IP",
                         "imgContent": "",
-                        "content": "Existen dos tipos principales de direcciones IP: IPv4 e IPv6. IPv4 utiliza direcciones de 32 bits, mientras que IPv6 utiliza direcciones de 128 bits, permitiendo una mayor cantidad de direcciones únicas."
+                        "content": "Existen dos tipos principales de direcciones IP: IPv4 e IPv6. IPv4 utiliza direcciones de 32 bits, mientras que IPv6 utiliza direcciones de 128 bits, permitiendo una mayor cantidad de direcciones únicas.",
+                        "subContent": [
+                            {
+                                "title": "IPv4",
+                                "content": "Formato de 32 bits dividido en cuatro bloques separados por puntos (por ejemplo, 192.168.1.1). Este formato permite hasta alrededor de 4.3 mil millones de direcciones únicas.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "IPv6",
+                                "content": "Formato de 128 bits dividido en ocho bloques de cuatro caracteres hexadecimales separados por dos puntos (por ejemplo, 2001:0db8:85a3:0000:0000:8a2e:0370:7334). IPv6 fue creado para satisfacer la demanda de más direcciones IP.",
+                                "imgContent": ""
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Subnetting",
+                        "imgContent": "",
+                        "content": "Como bien sabemos, las máscaras de subred permiten conocer la parte de red y la parte de host respecto a la dirección IP. Entonces, si se requieren crear subredes por razones como dividir el dominio broadcast, optimizar la comunicación, entre otros, de la parte de host que posee la máscara de subred se van a utilizar tantos bits sean necesarios para poder obtener el número de subredes objetivo. A continuación repasemos los pasos para dividir redes:",
+                        "subContent":
+                         [
+                            {
+                                "title": "1) Determinar el número de subredes y hosts requeridos",
+                                "content": "Suponer que tienes una red /24 que permite 256 direcciones IP (de 192.168.10.0 a 192.168.10.255), con 254 disponibles para hosts, y que te piden que cada subred pueda albergar al menos 50 hosts, por lo que necesitas al menos 6 bits para hosts (2⁶ - 2 = 62 hosts por subred).",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "2) Definir la nueva máscara de subred",
+                                "content": "Dado que la red original tiene una máscara /24 (255.255.255.0), los 24 bits iniciales están fijos para la parte de la red. Como necesitas 6 bits para hosts puedes usar 2 bits para subredes (8 bits - 6 bits = 2 bits para subredes), en consecuencia tu nueva máscara de subred será /26 (24 bits de red originales + 2 bits adicionales para subredes), que equivale a **255.255.255.192**.",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "3) Calcular la nueva cantidad de subredes y hosts",
+                                "content": "Tenemos finalmente que con 2 bits adicionales para las subredes, puedes crear 4 subredes (2² = 4). Cada subred tendrá 64 direcciones IP (2⁶ = 64), de las cuales 62 son utilizables para hosts (64 - 2, porque una es la dirección de red y la otra es la dirección de broadcast).",
+                                "imgContent": ""
+                            },
+                            {
+                                "title": "4) Elaborar la lista de subredes resultantes",
+                                "content": "En este caso son 4 subredes, la primera quedaría: [Subred 1: 192.168.10.0/26], [Rango de IPs: 192.168.10.1 a 192.168.10.62], [Dirección de red: 192.168.10.0], [Dirección de broadcast: 192.168.10.63]. Realice el ejercicio para las 3 subredes restantes.",
+                                "imgContent": ""
+                            }
+
+                        ]
                     }
+
                 ]
             }
         ]
