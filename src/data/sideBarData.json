@@ -1,95 +1,92 @@
 [
-    {
-      "title": "Bienvenido al curso",
-      "url": "/"
-    },
-    {
-      "title": "Introducción",
-      "url": "/introduccion/"
-    },
-    {
-      "title": "Conceptos básicos",
-      "url": "/conceptos-basicos",
-      "subItems": [
-        {
-          "title": "¿Qué es una red de datos?",
-          "url": "/conceptos-basicos/que-es-una-red-de-datos"
-        },
-        {
-          "title": "Tipos de redes de datos",
-          "url": "/conceptos-basicos/tipos-de-redes-de-datos"
-        },
-        {
-          "title": "Tipos de transmisión de datos",
-          "url": "/conceptos-basicos/tipos-de-transmision-de-datos"
-        },
-        {
-          "title": "Componentes fundamentales de las redes Ethernet",
-          "url": "/conceptos-basicos/componentes-fundamentales-ethernet"
-        },
-        {
-          "title": "Alta disponibilidad",
-          "url": "/conceptos-basicos/alta-disponibilidad"
-        },
-        {
-          "title": "Servicios",
-          "url": "/conceptos-basicos/servicios"
-        },
-        {
-          "title": "Otros conceptos",
-          "url": "/conceptos-basicos/otros-conceptos"
-        },
-        {
-          "title": "Quiz",
-          "url": "/conceptos-basicos-quiz"
-        }
-      ]
-    },
-    {
-      "title": "Arquitectura de red",
-      "url": "/arquitectura-red",
-      "subItems": [
-        {
-          "title": "¿Qué es una arquitectura de red?",
-          "url": "/arquitectura-red/que-es-una-arquitectura-red"
-        },
-        {
-          "title": "Protocolos",
-          "url": "/arquitectura-red/protocolos"
-        },
-        {
-          "title": "Modelos de referencia de redes de datos",
-          "url": "/arquitectura-red/modelos-de-referencia"
-        },
-        {
-          "title": "Quiz",
-          "url": "/arquitectura-red/quiz"
-        }
-      ]
-    },
-    {
-      "title": "Características de las capas",
-      "url": "caracteristicas-capas/",
-      "subItems": [
-        {
-          "title": "Capa física",
-          "url": "/caracteristicas-capas/capa-fisica"
-        },
-        {
-          "title": "Capa enlace",
-          "url": "/caracteristicas-capas/capa-enlace"
-        },
-        {
-          "title": "Capa internet",
-          "url": "/caracteristicas-capas/capa-internet"
-        },
-        {
-          "title": "Quiz",
-          "url": "/caracteristicas-capas/quiz"
-        }
-      ]
-    }
-    
-    
-
-  ]
+  {
+    "title": "Bienvenido al curso",
+    "url": "/"
+  },
+  {
+    "title": "Introducción",
+    "url": "/introduccion/"
+  },
+  {
+    "title": "Conceptos básicos",
+    "url": "/conceptos-basicos",
+    "subItems": [
+      {
+        "title": "¿Qué es una red de datos?",
+        "url": "/conceptos-basicos/que-es-una-red-de-datos"
+      },
+      {
+        "title": "Tipos de redes de datos",
+        "url": "/conceptos-basicos/tipos-de-redes-de-datos"
+      },
+      {
+        "title": "Tipos de transmisión de datos",
+        "url": "/conceptos-basicos/tipos-de-transmision-de-datos"
+      },
+      {
+        "title": "Componentes fundamentales de las redes Ethernet",
+        "url": "/conceptos-basicos/componentes-fundamentales-ethernet"
+      },
+      {
+        "title": "Alta disponibilidad",
+        "url": "/conceptos-basicos/alta-disponibilidad"
+      },
+      {
+        "title": "Servicios",
+        "url": "/conceptos-basicos/servicios"
+      },
+      {
+        "title": "Otros conceptos",
+        "url": "/conceptos-basicos/otros-conceptos"
+      },
+      {
+        "title": "Quiz",
+        "url": "/conceptos-basicos-quiz"
+      }
+    ]
+  },
+  {
+    "title": "Arquitectura de red",
+    "url": "/arquitectura-red",
+    "subItems": [
+      {
+        "title": "¿Qué es una arquitectura de red?",
+        "url": "/arquitectura-red/que-es-una-arquitectura-red"
+      },
+      {
+        "title": "Protocolos",
+        "url": "/arquitectura-red/protocolos"
+      },
+      {
+        "title": "Modelos de referencia de redes de datos",
+        "url": "/arquitectura-red/modelos-de-referencia"
+      },
+      {
+        "title": "Quiz",
+        "url": "/arquitectura-red/quiz"
+      }
+    ]
+  },
+  {
+    "title": "Características de las capas",
+    "url": "caracteristicas-capas/",
+    "subItems": [
+      {
+        "title": "Capa física",
+        "url": "/caracteristicas-capas/capa-fisica"
+      },
+      {
+        "title": "Capa enlace",
+        "url": "/caracteristicas-capas/capa-enlace"
+      },
+      {
+        "title": "Capa internet",
+        "url": "/caracteristicas-capas/capa-internet"
+      },
+      {
+        "title": "Quiz",
+        "url": "/caracteristicas-capas/quiz"
+      }
+    ]
+  }
+]
