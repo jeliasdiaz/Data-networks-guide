@@ -22,7 +22,7 @@ import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
 import { ArquitecturaRed } from './pages/ArquitecturaRed/ArquitecturaRed'
 import { QuizArquitecturaRed } from './pages/ArquitecturaRed/QuizArquitecturaRed'
 import { QuizCaracteristicasCapas } from './pages/CaracteristicasCapas/QuizCaracteristicasCapas'
-import { Ejemplo } from './pages/Ejemplo/Ejemplo'
+
 
 function App() {
 	return (
@@ -100,11 +100,6 @@ function App() {
 								path='/caracteristicas-capas/quiz'
 								element={<QuizCaracteristicasCapas />}
 							/>
-							<Route
-								path='/ejemplourl/azure-nube'
-								element={<Ejemplo />}
-							/>
-							
 						</Routes>
 						<BottomNavigation />
 					</div>
