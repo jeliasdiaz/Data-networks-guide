@@ -2,7 +2,7 @@
     {
         "title": "Tipos de transmisión de datos",
         "img": "",
-        "content": "Se clasifican en dos categorías: *según la direccionalidad y según la técnica de transmisión*. No obstante, la primera se abordará en la capa de Enlace. ",
+        "content": "Se clasifican en dos categorías: *según la direccionalidad y según la técnica de transmisión*. No obstante, la primera se abordará en la capa de Enlace.",
         "imgContent": "",
         "subContent": [
             {
@@ -12,7 +12,7 @@
                 "subContent": [
                     {
                         "title": "Unicast:",
-                        "content": "Los datos se envían desde un **único emisor a un único receptor** en la red. Por tanto, cada paquete de datos está dirigido específicamente a un único dispositivo. En la vida cotidiana, cuando enviamos un audio por WhatsApp a otra persona, los datos viajan desde nosotros hasta esa persona únicamente, es obvio que pasan por un camino en la red, pero no nos referimos a eso, sino a que el audio lo emitimos nosotros exclusivamente para un **solo receptor**.  ",
+                        "content": "Los datos se envían desde un **único emisor a un único receptor** en la red. Por tanto, cada paquete de datos está dirigido específicamente a un único dispositivo. En la vida cotidiana, cuando enviamos un audio por WhatsApp a otra persona, los datos viajan desde nosotros hasta esa persona únicamente, es obvio que pasan por un camino en la red, pero no nos referimos a eso, sino a que el audio lo emitimos nosotros exclusivamente para un **solo receptor**. ",
                         "imgContent": ""
                     },
                     {
