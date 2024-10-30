@@ -88,6 +88,16 @@
           "url": "/caracteristicas-capas/quiz"
         }
       ]
+    },
+    {
+      "title": "Ejemplo",
+      "url": "ejemplourl/",
+      "subItems": [
+        {
+          "title": "Sub ejemplo",
+          "url": "/ejemplourl/Ejemplo"
+        }
+      ]
     }
     
 
