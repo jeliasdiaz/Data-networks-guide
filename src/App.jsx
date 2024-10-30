@@ -22,7 +22,6 @@ import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
 import { ArquitecturaRed } from './pages/ArquitecturaRed/ArquitecturaRed'
 import { QuizArquitecturaRed } from './pages/ArquitecturaRed/QuizArquitecturaRed'
 import { QuizCaracteristicasCapas } from './pages/CaracteristicasCapas/QuizCaracteristicasCapas'
-import { Ejemplo } from './pages/CarpetaEjemplo/Ejemplo'
 
 function App() {
 	return (
