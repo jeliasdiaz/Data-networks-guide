@@ -7,7 +7,7 @@
             {
                 "title": "RAID",
                 "content": "Es una metodología para la alta disponibilidad, que **combina múltiples discos duros físicos en una única unidad lógica para cumplir con la redundancia**. Los diferentes niveles de RAID permiten distribuir y duplicar datos de manera que, si un disco falla, los datos no se pierdan y el sistema continúe funcionando. *En la siguiente imagen puedes observar un RAID tipo 1, que consiste en hacer mirroning, osea duplicar tal cual las unidades lógicas*. ",
-                "imgContent": "/img/Ping.png"
+                "imgContent": "/img/RAID1.png"
             }
         ]
     }
