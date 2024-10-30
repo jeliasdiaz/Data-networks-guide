@@ -100,6 +100,10 @@ function App() {
 								path='/caracteristicas-capas/quiz'
 								element={<QuizCaracteristicasCapas />}
 							/>
+							<Route
+								path='/ejemplourl/azure-nube'
+								element={<Ejemplo />}
+							/>
 							
 						</Routes>
 						<BottomNavigation />
