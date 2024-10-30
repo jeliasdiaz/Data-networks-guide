@@ -88,5 +88,28 @@
           "url": "/caracteristicas-capas/quiz"
         }
       ]
+    },
+    {
+      "title": "Ejemplo",
+      "url": "ejemplo/",
+      "subItems": [
+        {
+          "title": "Capa física",
+          "url": "/ejemplo/capa-fisica"
+        },
+        {
+          "title": "Capa enlace",
+          "url": "/caracteristicas-capas/capa-enlace"
+        },
+        {
+          "title": "Capa internet",
+          "url": "/caracteristicas-capas/capa-internet"
+        },
+        {
+          "title": "Quiz",
+          "url": "/caracteristicas-capas/quiz"
+        }
+      ]
     }
+
   ]
