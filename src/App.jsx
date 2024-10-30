@@ -100,10 +100,7 @@ function App() {
 								path='/caracteristicas-capas/quiz'
 								element={<QuizCaracteristicasCapas />}
 							/>
-							<Route
-								path='/ejemplourl/Ejemplo'
-								element={<Ejemplo />}
-							/>
+							
 						</Routes>
 						<BottomNavigation />
 					</div>
