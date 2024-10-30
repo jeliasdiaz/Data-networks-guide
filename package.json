@@ -2,7 +2,7 @@
   "name": "redes-datos-guia",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://jeliasdiaz.github.io/Data-networks-guide/",
+  "homepage": "https://jeliasdiaz.github.io/Data-networks-guide",
   "type": "module",
   "scripts": {
     "predeploy" : "npm run build",
