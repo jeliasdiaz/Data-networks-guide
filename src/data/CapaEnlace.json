@@ -2,39 +2,39 @@
     {
         "title": "Capa de enlace",
         "img": "",
-        "content": "La capa de enlace de datos es responsable de la transferencia de datos entre dos dispositivos en la misma red. Esta capa se encarga de la detección y corrección de errores, así como del control de flujo.",
+        "content": "La capa de enlace de datos es responsable de la transferencia de datos entre dos dispositivos en la misma red. Esta capa se encarga de la detección y corrección de errores, así como del control de flujo. Además, proporciona una interfaz para la capa de red y maneja la dirección física de los dispositivos.",
         "imgContent": "",
         "subContent": [
             {
                 "title": "MAC",
-                "content": "La dirección MAC (Media Access Control) es una dirección única asignada a cada dispositivo de red para su identificación.",
-                "imgContent": "",
+                "content": "La dirección MAC (Media Access Control) es una dirección única asignada a cada dispositivo de red para su identificación. Las direcciones MAC son esenciales para la comunicación dentro de una red local y se utilizan para asegurar que los datos se envíen al dispositivo correcto.",
+                "imgContent": "/img/mac.png",
                 "subContent": []
             },
             {
                 "title": "Entramado",
-                "content": "El entramado es el proceso de dividir los datos en unidades manejables llamadas tramas.",
+                "content": "El entramado es el proceso de dividir los datos en unidades manejables llamadas tramas. Cada trama contiene una porción de los datos, así como información de control que permite la detección y corrección de errores.",
                 "imgContent": "",
                 "subContent": [
                     {
                         "title": "Técnicas de entramado",
-                        "content": "Existen varias técnicas para realizar el entramado de datos.",
+                        "content": "Existen varias técnicas para realizar el entramado de datos, cada una con sus propias ventajas y desventajas.",
                         "imgContent": "",
                         "subContent": [
                             {
                                 "title": "Conteo de bytes",
-                                "content": "Esta técnica utiliza un campo en la trama que indica el número de bytes que contiene.",
-                                "imgContent": ""
+                                "content": "Esta técnica utiliza un campo en la trama que indica el número de bytes que contiene. Es simple de implementar pero puede ser vulnerable a errores si el campo de conteo es incorrecto.",
+                                "imgContent": "/img/conteoCaracteres.png"
                             },
                             {
                                 "title": "Banderas",
-                                "content": "Se utilizan patrones específicos de bits para indicar el inicio y el final de una trama.",
-                                "imgContent": ""
+                                "content": "Se utilizan patrones específicos de bits para indicar el inicio y el final de una trama. Esta técnica es robusta y fácil de detectar, pero puede requerir técnicas adicionales para evitar que los datos contengan los mismos patrones de bits.",
+                                "imgContent": "/img/banderasEntramado.png"
                             },
                             {
                                 "title": "Violación de código",
-                                "content": "Se emplean secuencias de bits que no se utilizan en el código normal para marcar los límites de la trama.",
-                                "imgContent": ""
+                                "content": "Se emplean secuencias de bits que no se utilizan en el código normal para marcar los límites de la trama. Esta técnica es efectiva para detectar el inicio y el final de las tramas, pero puede ser más compleja de implementar.",
+                                "imgContent": "/img/violacionCodigo.jpg"
                             }
                         ]
                     }
@@ -42,27 +42,27 @@
             },
             {
                 "title": "Control de errores",
-                "content": "El control de errores asegura que los datos recibidos sean los mismos que los enviados, detectando y corrigiendo errores.",
+                "content": "El control de errores asegura que los datos recibidos sean los mismos que los enviados, detectando y corrigiendo errores. Esto es crucial para mantener la integridad de los datos en la comunicación.",
                 "imgContent": "",
                 "subContent": [
                     {
                         "title": "Técnicas de control de errores",
-                        "content": "Existen varias técnicas para el control de errores en la transmisión de datos.",
+                        "content": "Existen varias técnicas para el control de errores en la transmisión de datos, cada una con diferentes niveles de complejidad y efectividad.",
                         "imgContent": "",
                         "subContent": [
                             {
                                 "title": "Bits de paridad",
-                                "content": "Se añade un bit adicional para hacer que el número total de bits 1 en la trama sea par o impar.",
-                                "imgContent": ""
+                                "content": "Se añade un bit adicional para hacer que el número total de bits 1 en la trama sea par o impar. Esta técnica es simple pero no muy robusta, ya que solo puede detectar errores simples.",
+                                "imgContent": "/img/bitsParidad.png"
                             },
                             {
                                 "title": "Checksum",
-                                "content": "Se calcula un valor basado en los datos de la trama y se envía junto con ella. El receptor recalcula el valor y lo compara con el recibido.",
+                                "content": "Se calcula un valor basado en los datos de la trama y se envía junto con ella. El receptor recalcula el valor y lo compara con el recibido. Esta técnica es más robusta que los bits de paridad pero aún puede fallar en detectar ciertos tipos de errores.",
                                 "imgContent": ""
                             },
                             {
                                 "title": "CRC",
-                                "content": "El Código de Redundancia Cíclica (CRC) es un método más robusto que utiliza divisiones polinómicas para detectar errores.",
+                                "content": "El Código de Redundancia Cíclica (CRC) es un método más robusto que utiliza divisiones polinómicas para detectar errores. Es altamente efectivo para detectar y corregir errores en la transmisión de datos.",
                                 "imgContent": ""
                             }
                         ]
@@ -71,27 +71,27 @@
             },
             {
                 "title": "Control de flujo",
-                "content": "El control de flujo gestiona la velocidad de transmisión de datos entre dos dispositivos para evitar la saturación del receptor.",
+                "content": "El control de flujo gestiona la velocidad de transmisión de datos entre dos dispositivos para evitar la saturación del receptor. Esto asegura que los datos se transmitan de manera eficiente y sin pérdida.",
                 "imgContent": "",
                 "subContent": [
                     {
                         "title": "Técnicas de control de flujo",
-                        "content": "Existen varias técnicas para el control de flujo en la transmisión de datos.",
+                        "content": "Existen varias técnicas para el control de flujo en la transmisión de datos, cada una con sus propias ventajas y desventajas.",
                         "imgContent": "",
                         "subContent": [
                             {
                                 "title": "Stop and wait",
-                                "content": "El emisor envía una trama y espera una confirmación antes de enviar la siguiente.",
-                                "imgContent": ""
+                                "content": "El emisor envía una trama y espera una confirmación antes de enviar la siguiente. Esta técnica es simple pero puede ser ineficiente si el tiempo de espera es largo.",
+                                "imgContent": "/img/stopAndWait.png"
                             },
                             {
                                 "title": "Retroceso n",
-                                "content": "El emisor puede enviar varias tramas antes de necesitar una confirmación, pero debe retroceder y retransmitir desde la trama no confirmada en caso de error.",
+                                "content": "El emisor puede enviar varias tramas antes de necesitar una confirmación, pero debe retroceder y retransmitir desde la trama no confirmada en caso de error. Esta técnica es más eficiente que 'Stop and wait' pero puede ser más compleja de implementar.",
                                 "imgContent": ""
                             },
                             {
                                 "title": "Repetición selectiva",
-                                "content": "El emisor solo retransmite las tramas que no fueron confirmadas, en lugar de todas las tramas desde la última confirmada.",
+                                "content": "El emisor solo retransmite las tramas que no fueron confirmadas, en lugar de todas las tramas desde la última confirmada. Esta técnica es la más eficiente pero también la más compleja de implementar.",
                                 "imgContent": ""
                             }
                         ]
@@ -100,8 +100,8 @@
             },
             {
                 "title": "Concepto y proceso del ARP",
-                "content": "El Protocolo de Resolución de Direcciones (ARP) se utiliza para mapear direcciones IP a direcciones MAC en una red local.",
-                "imgContent": "",
+                "content": "El Protocolo de Resolución de Direcciones (ARP) se utiliza para mapear direcciones IP a direcciones MAC en una red local. ARP es esencial para la comunicación en redes locales, ya que permite que los dispositivos encuentren la dirección física correspondiente a una dirección IP.",
+                "imgContent": "/img/arp.png",
                 "subContent": []
             }
         ]

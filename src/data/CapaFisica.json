@@ -12,17 +12,17 @@
                 "subContent": [
                     {
                         "title": "Cable Coaxial",
-                        "imgContent": "",
+                        "imgContent": "/img/cableCoaxial.jpg",
                         "content": "El cable coaxial es un tipo de cable que tiene un conductor interno rodeado por un aislante, una malla metálica y una cubierta externa. Se utiliza comúnmente para la transmisión de señales de televisión y datos de internet."
                     },
                     {
                         "title": "Twisted Pair",
-                        "imgContent": "",
+                        "imgContent": "/img/twistedPair.jpg",
                         "content": "El cable de par trenzado (Twisted Pair) consiste en dos conductores que están trenzados entre sí para reducir la interferencia electromagnética. Es el tipo de cable más comúnmente utilizado en redes de área local (LAN)."
                     },
                     {
                         "title": "Fibra Óptica",
-                        "imgContent": "",
+                        "imgContent": "/img/fibraOptica.jpg",
                         "content": "La fibra óptica utiliza filamentos de vidrio o plástico para transmitir datos en forma de pulsos de luz. Ofrece altas velocidades de transmisión y es inmune a las interferencias electromagnéticas."
                     }
                 ]
