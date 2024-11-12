@@ -22,6 +22,7 @@ import { ModelosReferencia } from './pages/ArquitecturaRed/ModelosReferencia'
 import { ArquitecturaRed } from './pages/ArquitecturaRed/ArquitecturaRed'
 import { QuizArquitecturaRed } from './pages/ArquitecturaRed/QuizArquitecturaRed'
 import { QuizCaracteristicasCapas } from './pages/CaracteristicasCapas/QuizCaracteristicasCapas'
+import { IntroduccionNube } from './pages/Nube/IntroduccionNube'
 
 function App() {
 	return (
@@ -98,6 +99,10 @@ function App() {
 							<Route
 								path='/caracteristicas-capas/quiz'
 								element={<QuizCaracteristicasCapas />}
+							/>
+							<Route
+								path='/la-nube/introduccion-nube'
+								element={<IntroduccionNube />}
 							/>
 							
 						</Routes>
